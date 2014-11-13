@@ -1,0 +1,163 @@
+/* Put your CSS here */
+* {
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+a, a:link, a:active, a:hover, a:visited {
+    text-decoration: none;
+    color: #03879A;
+}   
+
+a:hover {
+    background-color: #01535F;
+/*    color: #01535F;*/
+    color: #A9E9F2;
+}
+
+.ember-application {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+ul {
+	list-style-type: circle;
+	margin: 0;
+	margin-top: 0px;
+	padding: 0px;
+}
+
+li {
+	display: inline-block;
+    text-align: center;
+}
+
+.topnav {
+	margin: 0;
+}
+
+.topnav li {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.banner {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	width: 100%;
+}
+
+.banner a {
+    color: black;
+}
+
+.banner a:hover {
+    font-weight: bold;
+}
+
+.banner-left {
+	display: inline-block;
+	width: 300px;
+}
+
+.banner-left a:hover h1 {
+    color: #A9E9F2;
+}
+
+.banner-right {
+	display: inline-block;
+	float: right;
+	width: 500px;
+}
+
+.banner-right img {
+	float: right;
+	display: inline;
+	position: relative;
+	bottom: 0px;
+}
+
+.navigation {
+	margin: 10px 0px 10px 10px;
+	/*background-color: blue;*/
+	display: block;
+	font-family: "Arial Black", Gadget sans-serif;
+}
+.top-nav {
+    font-size: 14pt;
+}
+
+.active {
+    background-color: #01535F;
+/*    color: #01535F;*/
+    color: #A9E9F2 !important;
+}
+
+.active h1 {
+/*    background-color: #01535F;*/
+    color: #03879A;
+/*    color: #A9E9F2 !important;*/
+}
+.posts-left {
+    display: inline-block;
+    float: left;
+    mid-width: 300px;
+    width: 20%;
+}
+
+.posts-right {
+    display: inline-block;
+    float: left;
+    min-width: 400px;
+    width: 60%;
+}
+
+h2.posts {
+    margin-top: 0px;
+}
+
+/*For testing purposes!!
+
+
+
+/* TESTING ONLY */
+.testing {
+    background: green;
+}
+
+#dialog-test {
+    background-color: blue;
+}
+
+ul.edit {
+    
+}
+
+ul.edit li {
+    display: block;
+}
+
+.postEdit tr {
+    height: 40px;
+}
+
+.postEdit td {
+    width: 70px;
+}
+
+.postEdit input {
+    border-radius: 3px;
+    border: none;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.2) inset, 0 -1px 0 rgba(0,0,0,0.05) inset;
+    transition: all 0.2s linear;
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 13px;
+    color: #222222;
+    position: relative;
+    min-height: 30px;
+/*    height: 36px;*/
+/*    width: 300px;*/
+    padding-left: 30px;
+}
+
+
