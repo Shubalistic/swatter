@@ -4,7 +4,7 @@ Swatter.Router.map(function() {
         this.resource('post', {path: ':post_id'});   
     });
 	this.resource('projects');
-    this.resource('bugs');
+    this.resource('tickets');
 });
 
 Swatter.PostsRoute = Ember.Route.extend({
