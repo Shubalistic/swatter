@@ -1,0 +1,31 @@
+Swatter project
+
+*** (((Elements))) ***
+    Tickets
+    Agents / Users
+    Admin
+    Graphing / trending
+    
+    
+    
+*** (((Phases))) ***
+Initial
+      
+    
+    
+    
+*** (((Objects))) ***    
+Tickets
+    ID
+    Project
+    Creator
+    Assignee
+    Subject
+    Description
+    Priority
+    Severity
+    
+Project
+    Owner
+    
+    
