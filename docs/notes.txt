@@ -21,12 +21,27 @@ Tickets
     Project
     Creator
     Assignee
-    Subject
+    Title
     Description
     Priority
     Severity
     
 Project
+    ID
+    Creator
     Owner
+    Notes
+    LastUpdate
     
-test2
+Agent
+    ID
+    Supervisor
+    Admin
+    Name
+    Login
+    Email
+    
+Notes
+    ID
+    Author
+    Content
