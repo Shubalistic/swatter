@@ -3,6 +3,10 @@
 <head>
   <meta charset="utf-8">
   <title>Ember Starter Kit</title>
+  <link rel="stylesheet" href="css/bootstrap/bs-growl-notifications.min.css">
+  <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="css/bootstrap/bs-growl-notifications.min.css">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -13,22 +17,16 @@
     <script type="text/x-handlebars">
         <div class="topnav">
           <div class='banner'>
-            <div class='banner-left'>
                 {{#link-to 'index'}}<h1>Swatter</h1>{{/link-to}}
-            </div>
-            <div class='banner-right'>
-                {{#link-to 'index'}}<img src='./static/logo.png'></img>{{/link-to}}
-            </div>
+              <br>
           </div>
-
           <div class='navigation'>
-            <ul type='nav-bar' class='top-nav'>
-                <li>{{#link-to 'index'}}Dashboard{{/link-to}}</li>
+            <ul type='nav-bar' class='top-nav' align="center">
+                <li>{{#link-to 'index'}}Home{{/link-to}}</li>
                 <li>{{#link-to 'projects'}}Projects{{/link-to}}</li>
                 <li>{{#link-to 'tickets'}}Tickets{{/link-to}}</li>
                 <li>{{#link-to 'posts'}}Posts{{/link-to}}</li>
                 <li>{{#link-to 'admin'}}Admin{{/link-to}}</li>
-<!--                <li>{{#link-to 'posts'}}Posts{{/link-to}}</li>-->
             </ul>
           </div>
         </div>
@@ -36,6 +34,11 @@
        <div class='application-pane'>
            {{outlet}}
        </div>
+       <div class='quick-create'>
+           {{outlet quickactions}}
+       </div>
+        
+        
     </script>
 
   
@@ -43,26 +46,131 @@
     
     <script type="text/x-handlebars" id='index'>
         <p>This is the Dashboard (index) stub.</p>
-        
-        
-        
-        
-        
     </script>
 
+    <script type="text/x-handlebars" id='quickbar'>
+        <p>This is the quickbar stub.</p>
+    </script>
+    
     <script type='text/x-handlebars' id='projects'>
-        This is the Projects stub.
+        <div class='topnav-left'>
+            <table>
+                <tbody>
+                    {{#each}}
+                        <tr><td>
+                            {{#link-to 'project' this}}
+                                {{name}}
+                            {{/link-to}}
+                        </tr></td>
+                    {{/each}}
+                </tbody>
+           </table> 
+        </div>
 
+        <div class='topnav-right'>
+            {{outlet}}
+        </div>
+
+    </script>
+
+    <script type='text/x-handlebars' id='project_overview'>
+        <h2 class='posts'>Project index stub</h2>        
+        <p>Going to put a project overview here</p>
+        <br>
+    </script>
+
+    <script type='text/x-handlebars' id='project'>
+        <h2 class='posts' id='test123'>{{name}}</h2>        
+        <p>Created: {{createdDate}}</p>
+        <p>Last updated: {{lastUpdate}}</p>
+        <p>Creator: {{#link-to 'user' creator}} {{creator.name}} {{/link-to}}</p>
+        <p>Owner: {{owner.name}}</p>
+        <p>Status: {{status.name}}</p>
+        <br>
+        
+<!--        {{outlet}}-->
+    </script>
+
+    <script type='text/x-handlebars' id='testuser'>
+        <p>Test user stub</p>
     </script>
 
     <script type="text/x-handlebars" id='tickets'>
-        This is the tickets stub.
+        <div class='topnav-left'>
+            <table>
+                <tbody>
+                    {{#each}}
+                        <tr><td>
+                            {{#link-to 'ticket' this}}
+                                {{name}}
+                            {{/link-to}}
+                        </tr></td>
+                    {{/each}}
+                </tbody>
+           </table>
+        </div>
 
+        <div class='topnav-right'>
+            {{outlet}}
+        </div>
+
+    </script>
+
+    <script type='text/x-handlebars' id='ticket_overview'>
+        <h2 class='posts'>Ticket index stub</h2>        
+        <p>Going to put a ticket overview here</p>
+        <br>
+        {{bs-alert message="Close button will fade" type="warning" dismiss=true fade=true}}
+    </script>
+
+    <script type='text/x-handlebars' id='ticket'>
+    <!--    {{#if isEdit}}
+            {{partial 'post/edit'}}
+            <button {{action 'save'}}>Save</button>
+        {{/if}}-->
+        <h2 class='posts' id='test123'>{{title}}</h2>        
+        <p>{{description}}</p>
+        <p>{{severity.name}}</p>
+        <p>{{status.name}}</p>
+<!--        <button {{action 'edit'}}>Edit</button>-->
+        
+        <br>
     </script>
     
     <script type="text/x-handlebars" id='admin'>
-        This is the admin stub.
+        <div class='topnav-left'>
+            <table>
+                <thead><tr><th>Users</th></tr></thead>
+                <tbody>
+                    {{#each}}
+                        <tr><td>
+                            {{#link-to 'user' this}}
+                                {{name}}
+                            {{/link-to}}
+                        </tr></td>
+                    {{/each}}
+                </tbody>
+           </table>
+        </div>
 
+        <div class='topnav-right'>
+            {{outlet}}
+        </div>
+    </script>
+
+    <script type='text/x-handlebars' id='admin_overview'>
+        <h2 class='posts'>Admin index stub</h2>        
+        <p>Going to put an admin overview here</p>
+        <br>
+    </script>
+
+    <script type='text/x-handlebars' id='user'>
+        <h2 class='posts' id='test123'>{{name}}</h2>        
+        <p>Admin: {{input type="checkbox" name="isAdmin" checked=isAdmin disabled=true}}</p>
+        <p>Login: {{login}}</p>
+        <p>Password: {{password}}</p>
+        <p>Email: {{email}}</p>
+        
     </script>
 
    <script type='text/x-handlebars' id='posts'>
@@ -101,6 +209,12 @@
         <br>
     </script>
 
+    <script type='text/x-handlebars' id='posts_overview'>
+        <p>An overview of all posts</p>
+        
+        <br>
+    </script>
+
     <script type='text/x-handlebars' id='post/edit'>
         <table class='postEdit'>
             <tr><td>Name</td><td>{{input type='text' value=title}}</td></tr>
@@ -119,16 +233,23 @@
        <p>Lorem ipsum dolor sit amet.</p>
    </script>
 
-
+   <script type='text/x-handlebars' id='components/cp-user'>
+       <h1>Blog Entry</h1>
+       <p>Lorem ipsum dolor sit amet.</p>
+   </script>
 
 
   <!-- ******** Scripts *********** -->
-  <script src="js/libs/jquery-1.10.2.js"></script>
-  <script src="js/libs/handlebars-1.1.2.js"></script>
-  <script src="js/libs/ember-1.7.0.js"></script>
-  <script src="js/libs/ember-data.js"></script>
+  <script src="js/libs/ember/jquery-1.10.2.js"></script>
+  <script src="js/libs/ember/handlebars-1.1.2.js"></script>
+  <script src="js/libs/ember/ember-1.7.0.js"></script>
+  <script src="js/libs/ember/ember-data.js"></script>
+  <script src="js/libs/bootstrap/bs-core.min.js"></script>
+  <script src="js/libs/bootstrap/bs-alert.min.js"></script>
+  <script src="js/libs/bootstrap/bs-breadcrumbs.min.js"></script>
   <script src="js/app.js"></script>
   <script src="js/models/md-post.js"></script>
+  <script src="js/models/md-project.js"></script>
   <script src="js/models/md-ticket.js"></script>
   <script src="js/models/md-user.js"></script>
   <script src="js/router.js"></script>

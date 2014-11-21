@@ -3,5 +3,43 @@ Swatter.User = DS.Model.extend ({
     name: DS.attr('string'),
     login: DS.attr('string'),
     password: DS.attr('string'),
-    email: DS.attr('email')
+    email: DS.attr('email'),
+    ownedProjects: DS.hasMany('project', {async: true, inverse: 'owner'}),
+    createdProjects: DS.hasMany('project', {async: true, inverse: 'creator'}),
 });
+
+Swatter.User.FIXTURES = [
+    {
+        id: 1,
+        isAdmin: true,
+        name: 'Tony Stark',
+        login: 'tstark',
+        password: 'password1',
+        email: "ceo@starkindustries.com",
+    }, {
+        id: 2,
+        isAdmin: false,
+        name: 'Steve Rodgers',
+        login: 'srodgers',
+        password: 'password2',
+        email: "thecap@shield.gov",
+    }, {id: 3,
+        isAdmin: true,
+        name: 'Clint Barton',
+        login: 'cbarton',
+        password: 'password3',
+        email: "hawkeye@shield.gov",
+    }, {id: 4,
+        isAdmin: true,
+        name: 'Thor Odinson',
+        login: 'thor',
+        password: 'hammer',
+        email: "thor@asgard.net",
+    }, {id: 5,
+        isAdmin: false,
+        name: 'Bruce Banner',
+        login: 'hulk',
+        password: 'greenman',
+        email: "bruce.banner@starkindustries.com",
+    }
+];

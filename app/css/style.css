@@ -1,6 +1,13 @@
 /* Put your CSS here */
+
+/*light teal - #e5f5f7*/
+
 * {
 	font-family: Verdana, Geneva, sans-serif;
+}
+
+body {
+/*    background-color: #fafafa;*/
 }
 
 a, a:link, a:active, a:hover, a:visited {
@@ -15,9 +22,12 @@ a:hover {
 }
 
 .ember-application {
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
+/*    margin-top: 20px;*/
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 550px;
+    max-width: 1000px;
+    align-content: center;
 }
 
 ul {
@@ -30,21 +40,26 @@ ul {
 li {
 	display: inline-block;
     text-align: center;
+    width: 15%;
 }
 
 .topnav {
 	margin: 0;
+
 }
 
+/*
 .topnav li {
     margin-left: 5px;
     margin-right: 5px;
 }
+*/
 
 .banner {
 	margin-top: 5px;
 	margin-bottom: 5px;
 	width: 100%;
+    text-align: center;
 }
 
 .banner a {
@@ -54,21 +69,23 @@ li {
 .banner a:hover {
     font-weight: bold;
 }
+/*
 
 .banner-left {
 	display: inline-block;
-	width: 300px;
 }
 
 .banner-left a:hover h1 {
     color: #A9E9F2;
 }
+*/
 
+/*
 .banner-right {
 	display: inline-block;
 	float: right;
-	width: 500px;
 }
+*/
 
 .banner-right img {
 	float: right;
@@ -78,11 +95,13 @@ li {
 }
 
 .navigation {
-	margin: 10px 0px 10px 10px;
-	/*background-color: blue;*/
+/*	margin: 10px 0px 10px 10px;*/
+/*	background-color: black;*/
+    align-content: center;
 	display: block;
 	font-family: "Arial Black", Gadget sans-serif;
 }
+
 .top-nav {
     font-size: 14pt;
 }
@@ -98,23 +117,38 @@ li {
     color: #03879A;
 /*    color: #A9E9F2 !important;*/
 }
-.posts-left {
+
+
+.topnav-left {
     display: inline-block;
     float: left;
     mid-width: 300px;
     width: 20%;
 }
 
-.posts-right {
+.topnav-left th {
+    float: left;
+}
+
+.topnav-right {
     display: inline-block;
     float: left;
     min-width: 400px;
-    width: 60%;
+    width: 80%;
 }
 
 h2.posts {
     margin-top: 0px;
 }
+
+
+
+
+
+
+
+
+
 
 /*For testing purposes!!
 
@@ -160,4 +194,28 @@ ul.edit li {
     padding-left: 30px;
 }
 
+.posts-left {
+    display: inline-block;
+    float: left;
+    mid-width: 300px;
+    width: 20%;
+}
 
+.posts-right {
+    display: inline-block;
+    float: left;
+    min-width: 400px;
+    width: 60%;
+}
+
+.application-pane {
+    display: inline-block;
+    width:80%;
+    float: left;
+}
+
+.quick-create {
+    display: inline-block;
+    width: 20%;
+    float:right;
+}

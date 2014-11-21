@@ -1,0 +1,1660 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--save-dev',
+1 verbose cli   'ember-cli-components' ]
+2 info using npm@1.4.3
+3 info using node@v0.10.26
+4 verbose node symlink C:\Program Files (x86)\nodejs\\node.exe
+5 warn package.json swatter@0.0.0 No repository field.
+6 warn package.json swatter@0.0.0 No README data
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'ember-cli-components', null ]
+9 verbose cache add name=undefined spec="ember-cli-components" args=["ember-cli-components",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'ember-cli-components',
+10 verbose parsed url   path: 'ember-cli-components',
+10 verbose parsed url   href: 'ember-cli-components' }
+11 silly lockFile 7f6a9dab-ember-cli-components ember-cli-components
+12 verbose lock ember-cli-components C:\Users\bshuey\AppData\Roaming\npm-cache\7f6a9dab-ember-cli-components.lock
+13 silly lockFile 7f6a9dab-ember-cli-components ember-cli-components
+14 silly lockFile 7f6a9dab-ember-cli-components ember-cli-components
+15 verbose addNamed [ 'ember-cli-components', '' ]
+16 verbose addNamed [ null, '*' ]
+17 silly lockFile e81e68af-ember-cli-components ember-cli-components@
+18 verbose lock ember-cli-components@ C:\Users\bshuey\AppData\Roaming\npm-cache\e81e68af-ember-cli-components.lock
+19 silly addNameRange { name: 'ember-cli-components', range: '*', hasData: false }
+20 verbose url raw ember-cli-components
+21 verbose url resolving [ 'https://registry.npmjs.org/', './ember-cli-components' ]
+22 verbose url resolved https://registry.npmjs.org/ember-cli-components
+23 info trying registry request attempt 1 at 10:00:02
+24 http GET https://registry.npmjs.org/ember-cli-components
+25 http 200 https://registry.npmjs.org/ember-cli-components
+26 silly registry.get cb [ 200,
+26 silly registry.get   { date: 'Thu, 20 Nov 2014 16:00:06 GMT',
+26 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+26 silly registry.get     etag: '"7COWEWEPNRR3ZRSH4GWCZ4T2Z"',
+26 silly registry.get     'content-type': 'application/json',
+26 silly registry.get     'cache-control': 'max-age=60',
+26 silly registry.get     'content-length': '5206',
+26 silly registry.get     'accept-ranges': 'bytes',
+26 silly registry.get     via: '1.1 varnish',
+26 silly registry.get     age: '0',
+26 silly registry.get     'x-served-by': 'cache-ord1732-ORD',
+26 silly registry.get     'x-cache': 'MISS',
+26 silly registry.get     'x-cache-hits': '0',
+26 silly registry.get     'x-timer': 'S1416499206.332035,VS0,VE81',
+26 silly registry.get     vary: 'Accept',
+26 silly registry.get     'keep-alive': 'timeout=10, max=50',
+26 silly registry.get     connection: 'Keep-Alive' } ]
+27 silly addNameRange number 2 { name: 'ember-cli-components', range: '*', hasData: true }
+28 silly addNameRange versions [ 'ember-cli-components',
+28 silly addNameRange   [ '0.1.0', '0.1.1', '0.1.2', '0.2.0' ] ]
+29 verbose addNamed [ 'ember-cli-components', '0.2.0' ]
+30 verbose addNamed [ '0.2.0', '0.2.0' ]
+31 silly lockFile 75689ee9-ember-cli-components-0-2-0 ember-cli-components@0.2.0
+32 verbose lock ember-cli-components@0.2.0 C:\Users\bshuey\AppData\Roaming\npm-cache\75689ee9-ember-cli-components-0-2-0.lock
+33 silly lockFile 3287bed5-s-ember-cli-components-0-2-0-tgz https://registry.npmjs.org/ember-cli-components/-/ember-cli-components-0.2.0.tgz
+34 verbose lock https://registry.npmjs.org/ember-cli-components/-/ember-cli-components-0.2.0.tgz C:\Users\bshuey\AppData\Roaming\npm-cache\3287bed5-s-ember-cli-components-0-2-0-tgz.lock
+35 verbose addRemoteTarball [ 'https://registry.npmjs.org/ember-cli-components/-/ember-cli-components-0.2.0.tgz',
+35 verbose addRemoteTarball   'bd6e0a77bed802dc64057d3cca1db961449b4b62' ]
+36 info retry fetch attempt 1 at 10:00:03
+37 verbose fetch to= C:\Users\bshuey\AppData\Local\Temp\npm-9424-eEQKiqli\1416499203539-0.9395341868512332\tmp.tgz
+38 http GET https://registry.npmjs.org/ember-cli-components/-/ember-cli-components-0.2.0.tgz
+39 http 200 https://registry.npmjs.org/ember-cli-components/-/ember-cli-components-0.2.0.tgz
+40 verbose tar unpack C:\Users\bshuey\AppData\Local\Temp\npm-9424-eEQKiqli\1416499203539-0.9395341868512332\tmp.tgz
+41 silly lockFile a475b19d-03539-0-9395341868512332-package tar://C:\Users\bshuey\AppData\Local\Temp\npm-9424-eEQKiqli\1416499203539-0.9395341868512332\package
+42 verbose lock tar://C:\Users\bshuey\AppData\Local\Temp\npm-9424-eEQKiqli\1416499203539-0.9395341868512332\package C:\Users\bshuey\AppData\Roaming\npm-cache\a475b19d-03539-0-9395341868512332-package.lock
+43 silly lockFile 312cfd08-03539-0-9395341868512332-tmp-tgz tar://C:\Users\bshuey\AppData\Local\Temp\npm-9424-eEQKiqli\1416499203539-0.9395341868512332\tmp.tgz
+44 verbose lock tar://C:\Users\bshuey\AppData\Local\Temp\npm-9424-eEQKiqli\1416499203539-0.9395341868512332\tmp.tgz C:\Users\bshuey\AppData\Roaming\npm-cache\312cfd08-03539-0-9395341868512332-tmp-tgz.lock
+45 silly gunzTarPerm modes [ '755', '644' ]
+46 silly gunzTarPerm extractEntry package.json
+47 silly gunzTarPerm extractEntry .npmignore
+48 silly gunzTarPerm extractEntry README.md
+49 silly gunzTarPerm extractEntry LICENSE
+50 silly gunzTarPerm extractEntry index.js
+51 silly lockFile a475b19d-03539-0-9395341868512332-package tar://C:\Users\bshuey\AppData\Local\Temp\npm-9424-eEQKiqli\1416499203539-0.9395341868512332\package
+52 silly lockFile a475b19d-03539-0-9395341868512332-package tar://C:\Users\bshuey\AppData\Local\Temp\npm-9424-eEQKiqli\1416499203539-0.9395341868512332\package
+53 silly lockFile 312cfd08-03539-0-9395341868512332-tmp-tgz tar://C:\Users\bshuey\AppData\Local\Temp\npm-9424-eEQKiqli\1416499203539-0.9395341868512332\tmp.tgz
+54 silly lockFile 312cfd08-03539-0-9395341868512332-tmp-tgz tar://C:\Users\bshuey\AppData\Local\Temp\npm-9424-eEQKiqli\1416499203539-0.9395341868512332\tmp.tgz
+55 verbose tar pack [ 'C:\\Users\\bshuey\\AppData\\Roaming\\npm-cache\\ember-cli-components\\0.2.0\\package.tgz',
+55 verbose tar pack   'C:\\Users\\bshuey\\AppData\\Local\\Temp\\npm-9424-eEQKiqli\\1416499203539-0.9395341868512332\\package' ]
+56 verbose tarball C:\Users\bshuey\AppData\Roaming\npm-cache\ember-cli-components\0.2.0\package.tgz
+57 verbose folder C:\Users\bshuey\AppData\Local\Temp\npm-9424-eEQKiqli\1416499203539-0.9395341868512332\package
+58 silly lockFile a475b19d-03539-0-9395341868512332-package tar://C:\Users\bshuey\AppData\Local\Temp\npm-9424-eEQKiqli\1416499203539-0.9395341868512332\package
+59 verbose lock tar://C:\Users\bshuey\AppData\Local\Temp\npm-9424-eEQKiqli\1416499203539-0.9395341868512332\package C:\Users\bshuey\AppData\Roaming\npm-cache\a475b19d-03539-0-9395341868512332-package.lock
+60 silly lockFile 31f5b259-cli-components-0-2-0-package-tgz tar://C:\Users\bshuey\AppData\Roaming\npm-cache\ember-cli-components\0.2.0\package.tgz
+61 verbose lock tar://C:\Users\bshuey\AppData\Roaming\npm-cache\ember-cli-components\0.2.0\package.tgz C:\Users\bshuey\AppData\Roaming\npm-cache\31f5b259-cli-components-0-2-0-package-tgz.lock
+62 silly lockFile a475b19d-03539-0-9395341868512332-package tar://C:\Users\bshuey\AppData\Local\Temp\npm-9424-eEQKiqli\1416499203539-0.9395341868512332\package
+63 silly lockFile a475b19d-03539-0-9395341868512332-package tar://C:\Users\bshuey\AppData\Local\Temp\npm-9424-eEQKiqli\1416499203539-0.9395341868512332\package
+64 silly lockFile 31f5b259-cli-components-0-2-0-package-tgz tar://C:\Users\bshuey\AppData\Roaming\npm-cache\ember-cli-components\0.2.0\package.tgz
+65 silly lockFile 31f5b259-cli-components-0-2-0-package-tgz tar://C:\Users\bshuey\AppData\Roaming\npm-cache\ember-cli-components\0.2.0\package.tgz
+66 silly lockFile 3ddb0ed8-ber-cli-components-0-2-0-package C:\Users\bshuey\AppData\Roaming\npm-cache\ember-cli-components\0.2.0\package
+67 verbose lock C:\Users\bshuey\AppData\Roaming\npm-cache\ember-cli-components\0.2.0\package C:\Users\bshuey\AppData\Roaming\npm-cache\3ddb0ed8-ber-cli-components-0-2-0-package.lock
+68 silly lockFile 3ddb0ed8-ber-cli-components-0-2-0-package C:\Users\bshuey\AppData\Roaming\npm-cache\ember-cli-components\0.2.0\package
+69 silly lockFile 3ddb0ed8-ber-cli-components-0-2-0-package C:\Users\bshuey\AppData\Roaming\npm-cache\ember-cli-components\0.2.0\package
+70 verbose tar unpack C:\Users\bshuey\AppData\Roaming\npm-cache\ember-cli-components\0.2.0\package.tgz
+71 silly lockFile e83c9159-ber-cli-components-0-2-0-package tar://C:\Users\bshuey\AppData\Roaming\npm-cache\ember-cli-components\0.2.0\package
+72 verbose lock tar://C:\Users\bshuey\AppData\Roaming\npm-cache\ember-cli-components\0.2.0\package C:\Users\bshuey\AppData\Roaming\npm-cache\e83c9159-ber-cli-components-0-2-0-package.lock
+73 silly lockFile 31f5b259-cli-components-0-2-0-package-tgz tar://C:\Users\bshuey\AppData\Roaming\npm-cache\ember-cli-components\0.2.0\package.tgz
+74 verbose lock tar://C:\Users\bshuey\AppData\Roaming\npm-cache\ember-cli-components\0.2.0\package.tgz C:\Users\bshuey\AppData\Roaming\npm-cache\31f5b259-cli-components-0-2-0-package-tgz.lock
+75 silly gunzTarPerm modes [ '755', '644' ]
+76 silly gunzTarPerm extractEntry package.json
+77 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+78 silly gunzTarPerm extractEntry .npmignore
+79 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+80 silly gunzTarPerm extractEntry README.md
+81 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+82 silly gunzTarPerm extractEntry LICENSE
+83 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+84 silly gunzTarPerm extractEntry index.js
+85 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+86 silly lockFile e83c9159-ber-cli-components-0-2-0-package tar://C:\Users\bshuey\AppData\Roaming\npm-cache\ember-cli-components\0.2.0\package
+87 silly lockFile e83c9159-ber-cli-components-0-2-0-package tar://C:\Users\bshuey\AppData\Roaming\npm-cache\ember-cli-components\0.2.0\package
+88 silly lockFile 31f5b259-cli-components-0-2-0-package-tgz tar://C:\Users\bshuey\AppData\Roaming\npm-cache\ember-cli-components\0.2.0\package.tgz
+89 silly lockFile 31f5b259-cli-components-0-2-0-package-tgz tar://C:\Users\bshuey\AppData\Roaming\npm-cache\ember-cli-components\0.2.0\package.tgz
+90 verbose chmod C:\Users\bshuey\AppData\Roaming\npm-cache\ember-cli-components\0.2.0\package.tgz 644
+91 silly chown skipping for windows C:\Users\bshuey\AppData\Roaming\npm-cache\ember-cli-components\0.2.0\package.tgz
+92 silly lockFile 3287bed5-s-ember-cli-components-0-2-0-tgz https://registry.npmjs.org/ember-cli-components/-/ember-cli-components-0.2.0.tgz
+93 silly lockFile 3287bed5-s-ember-cli-components-0-2-0-tgz https://registry.npmjs.org/ember-cli-components/-/ember-cli-components-0.2.0.tgz
+94 silly lockFile 75689ee9-ember-cli-components-0-2-0 ember-cli-components@0.2.0
+95 silly lockFile 75689ee9-ember-cli-components-0-2-0 ember-cli-components@0.2.0
+96 silly lockFile e81e68af-ember-cli-components ember-cli-components@
+97 silly lockFile e81e68af-ember-cli-components ember-cli-components@
+98 silly resolved [ { name: 'ember-cli-components',
+98 silly resolved     version: '0.2.0',
+98 silly resolved     description: 'Include ember-components into an ember-cli application.',
+98 silly resolved     main: 'index.js',
+98 silly resolved     scripts: { test: 'echo "Error: no test specified" && exit 1' },
+98 silly resolved     repository:
+98 silly resolved      { type: 'git',
+98 silly resolved        url: 'https://github.com/indexiatech/ember-cli-components' },
+98 silly resolved     keywords: [ 'ember-addon' ],
+98 silly resolved     author: { name: 'Indexia Technologies' },
+98 silly resolved     license: 'ASF 2',
+98 silly resolved     dependencies: { 'ember-components': '~0.2.0' },
+98 silly resolved     bugs: { url: 'https://github.com/indexiatech/ember-cli-components/issues' },
+98 silly resolved     homepage: 'http://indexiatech.github.io/ember-components',
+98 silly resolved     devDependencies: {},
+98 silly resolved     readme: '## ember-cli-components\n\nThis addon that adds `ember components` to the generated Ember CLI output (in `vendor.js`).\n\n### Installation / Usage\n\n```bash\nnpm install --save-dev ember-cli-components\n```\n\n### References\n* [ember-components](https://github.com/indexiatech/ember-components)',
+98 silly resolved     readmeFilename: 'README.md',
+98 silly resolved     _id: 'ember-cli-components@0.2.0',
+98 silly resolved     dist: { shasum: '0d150b01cabdc184d70e4248ba0cff0383412382' },
+98 silly resolved     _from: 'ember-cli-components@',
+98 silly resolved     _resolved: 'https://registry.npmjs.org/ember-cli-components/-/ember-cli-components-0.2.0.tgz' } ]
+99 info install ember-cli-components@0.2.0 into D:\Swatter\swatter
+100 info installOne ember-cli-components@0.2.0
+101 info D:\Swatter\swatter\node_modules\ember-cli-components unbuild
+102 verbose tar unpack C:\Users\bshuey\AppData\Roaming\npm-cache\ember-cli-components\0.2.0\package.tgz
+103 silly lockFile 60cdf24e-ode-modules-ember-cli-components tar://D:\Swatter\swatter\node_modules\ember-cli-components
+104 verbose lock tar://D:\Swatter\swatter\node_modules\ember-cli-components C:\Users\bshuey\AppData\Roaming\npm-cache\60cdf24e-ode-modules-ember-cli-components.lock
+105 silly lockFile 31f5b259-cli-components-0-2-0-package-tgz tar://C:\Users\bshuey\AppData\Roaming\npm-cache\ember-cli-components\0.2.0\package.tgz
+106 verbose lock tar://C:\Users\bshuey\AppData\Roaming\npm-cache\ember-cli-components\0.2.0\package.tgz C:\Users\bshuey\AppData\Roaming\npm-cache\31f5b259-cli-components-0-2-0-package-tgz.lock
+107 silly gunzTarPerm modes [ '755', '644' ]
+108 silly gunzTarPerm extractEntry package.json
+109 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+110 silly gunzTarPerm extractEntry .npmignore
+111 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+112 silly gunzTarPerm extractEntry README.md
+113 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+114 silly gunzTarPerm extractEntry LICENSE
+115 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+116 silly gunzTarPerm extractEntry index.js
+117 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+118 silly lockFile 60cdf24e-ode-modules-ember-cli-components tar://D:\Swatter\swatter\node_modules\ember-cli-components
+119 silly lockFile 60cdf24e-ode-modules-ember-cli-components tar://D:\Swatter\swatter\node_modules\ember-cli-components
+120 silly lockFile 31f5b259-cli-components-0-2-0-package-tgz tar://C:\Users\bshuey\AppData\Roaming\npm-cache\ember-cli-components\0.2.0\package.tgz
+121 silly lockFile 31f5b259-cli-components-0-2-0-package-tgz tar://C:\Users\bshuey\AppData\Roaming\npm-cache\ember-cli-components\0.2.0\package.tgz
+122 info preinstall ember-cli-components@0.2.0
+123 verbose readDependencies using package.json deps
+124 verbose readDependencies using package.json deps
+125 verbose cache add [ 'ember-components@~0.2.0', null ]
+126 verbose cache add name=undefined spec="ember-components@~0.2.0" args=["ember-components@~0.2.0",null]
+127 verbose parsed url { protocol: null,
+127 verbose parsed url   slashes: null,
+127 verbose parsed url   auth: null,
+127 verbose parsed url   host: null,
+127 verbose parsed url   port: null,
+127 verbose parsed url   hostname: null,
+127 verbose parsed url   hash: null,
+127 verbose parsed url   search: null,
+127 verbose parsed url   query: null,
+127 verbose parsed url   pathname: 'ember-components@~0.2.0',
+127 verbose parsed url   path: 'ember-components@~0.2.0',
+127 verbose parsed url   href: 'ember-components@~0.2.0' }
+128 verbose cache add name="ember-components" spec="~0.2.0" args=["ember-components","~0.2.0"]
+129 verbose parsed url { protocol: null,
+129 verbose parsed url   slashes: null,
+129 verbose parsed url   auth: null,
+129 verbose parsed url   host: null,
+129 verbose parsed url   port: null,
+129 verbose parsed url   hostname: null,
+129 verbose parsed url   hash: null,
+129 verbose parsed url   search: null,
+129 verbose parsed url   query: null,
+129 verbose parsed url   pathname: '~0.2.0',
+129 verbose parsed url   path: '~0.2.0',
+129 verbose parsed url   href: '~0.2.0' }
+130 verbose addNamed [ 'ember-components', '~0.2.0' ]
+131 verbose addNamed [ null, '>=0.2.0-0 <0.3.0-0' ]
+132 silly lockFile dbffda61-ember-components-0-2-0 ember-components@~0.2.0
+133 verbose lock ember-components@~0.2.0 C:\Users\bshuey\AppData\Roaming\npm-cache\dbffda61-ember-components-0-2-0.lock
+134 silly addNameRange { name: 'ember-components',
+134 silly addNameRange   range: '>=0.2.0-0 <0.3.0-0',
+134 silly addNameRange   hasData: false }
+135 verbose url raw ember-components
+136 verbose url resolving [ 'https://registry.npmjs.org/', './ember-components' ]
+137 verbose url resolved https://registry.npmjs.org/ember-components
+138 info trying registry request attempt 1 at 10:00:04
+139 http GET https://registry.npmjs.org/ember-components
+140 http 200 https://registry.npmjs.org/ember-components
+141 silly registry.get cb [ 200,
+141 silly registry.get   { date: 'Thu, 20 Nov 2014 16:00:07 GMT',
+141 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+141 silly registry.get     etag: '"BB7IEDS5Z8ENLJRP0V4Z8269Z"',
+141 silly registry.get     'content-type': 'application/json',
+141 silly registry.get     'cache-control': 'max-age=60',
+141 silly registry.get     'content-length': '3871',
+141 silly registry.get     'accept-ranges': 'bytes',
+141 silly registry.get     via: '1.1 varnish',
+141 silly registry.get     age: '0',
+141 silly registry.get     'x-served-by': 'cache-ord1728-ORD',
+141 silly registry.get     'x-cache': 'MISS',
+141 silly registry.get     'x-cache-hits': '0',
+141 silly registry.get     'x-timer': 'S1416499207.311645,VS0,VE333',
+141 silly registry.get     vary: 'Accept',
+141 silly registry.get     'keep-alive': 'timeout=10, max=50',
+141 silly registry.get     connection: 'Keep-Alive' } ]
+142 silly addNameRange number 2 { name: 'ember-components',
+142 silly addNameRange   range: '>=0.2.0-0 <0.3.0-0',
+142 silly addNameRange   hasData: true }
+143 silly addNameRange versions [ 'ember-components', [ '0.1.0', '0.2.0' ] ]
+144 verbose addNamed [ 'ember-components', '0.2.0' ]
+145 verbose addNamed [ '0.2.0', '0.2.0' ]
+146 silly lockFile c677a136-ember-components-0-2-0 ember-components@0.2.0
+147 verbose lock ember-components@0.2.0 C:\Users\bshuey\AppData\Roaming\npm-cache\c677a136-ember-components-0-2-0.lock
+148 silly lockFile 424ef653-nents-ember-components-0-2-0-tgz https://registry.npmjs.org/ember-components/-/ember-components-0.2.0.tgz
+149 verbose lock https://registry.npmjs.org/ember-components/-/ember-components-0.2.0.tgz C:\Users\bshuey\AppData\Roaming\npm-cache\424ef653-nents-ember-components-0-2-0-tgz.lock
+150 verbose addRemoteTarball [ 'https://registry.npmjs.org/ember-components/-/ember-components-0.2.0.tgz',
+150 verbose addRemoteTarball   '4694297f94f1cc2d883cdf7d8c71de36e0aa0ff0' ]
+151 info retry fetch attempt 1 at 10:00:04
+152 verbose fetch to= C:\Users\bshuey\AppData\Local\Temp\npm-9424-eEQKiqli\1416499204751-0.30305882496759295\tmp.tgz
+153 http GET https://registry.npmjs.org/ember-components/-/ember-components-0.2.0.tgz
+154 http 200 https://registry.npmjs.org/ember-components/-/ember-components-0.2.0.tgz
+155 verbose tar unpack C:\Users\bshuey\AppData\Local\Temp\npm-9424-eEQKiqli\1416499204751-0.30305882496759295\tmp.tgz
+156 silly lockFile 55534597-4751-0-30305882496759295-package tar://C:\Users\bshuey\AppData\Local\Temp\npm-9424-eEQKiqli\1416499204751-0.30305882496759295\package
+157 verbose lock tar://C:\Users\bshuey\AppData\Local\Temp\npm-9424-eEQKiqli\1416499204751-0.30305882496759295\package C:\Users\bshuey\AppData\Roaming\npm-cache\55534597-4751-0-30305882496759295-package.lock
+158 silly lockFile 875215bb-4751-0-30305882496759295-tmp-tgz tar://C:\Users\bshuey\AppData\Local\Temp\npm-9424-eEQKiqli\1416499204751-0.30305882496759295\tmp.tgz
+159 verbose lock tar://C:\Users\bshuey\AppData\Local\Temp\npm-9424-eEQKiqli\1416499204751-0.30305882496759295\tmp.tgz C:\Users\bshuey\AppData\Roaming\npm-cache\875215bb-4751-0-30305882496759295-tmp-tgz.lock
+160 silly gunzTarPerm modes [ '755', '644' ]
+161 silly gunzTarPerm extractEntry package.json
+162 silly gunzTarPerm extractEntry .npmignore
+163 silly gunzTarPerm extractEntry README.md
+164 silly gunzTarPerm extractEntry LICENSE
+165 silly gunzTarPerm extractEntry karma.conf.js
+166 silly gunzTarPerm extractEntry Brocfile.js
+167 silly gunzTarPerm extractEntry examples/package.json
+168 silly gunzTarPerm extractEntry examples/.npmignore
+169 silly gunzTarPerm extractEntry examples/README.md
+170 silly gunzTarPerm extractEntry examples/Brocfile.js
+171 silly gunzTarPerm extractEntry examples/config/environment.js
+172 silly gunzTarPerm extractEntry examples/app/app.js
+173 silly gunzTarPerm extractEntry examples/app/initializers/hightlightjs.coffee
+174 silly gunzTarPerm extractEntry examples/app/initializers/scrolltotop.coffee
+175 silly gunzTarPerm extractEntry examples/app/components/.gitkeep
+176 silly gunzTarPerm extractEntry examples/app/controllers/.gitkeep
+177 silly gunzTarPerm extractEntry examples/app/controllers/component/accordion/query-params.coffee
+178 silly gunzTarPerm extractEntry examples/app/controllers/component/button/index.coffee
+179 silly gunzTarPerm extractEntry examples/app/controllers/component/list/models.coffee
+180 silly gunzTarPerm extractEntry examples/app/controllers/component/list/state.coffee
+181 silly gunzTarPerm extractEntry examples/app/controllers/component/modal/confirm.coffee
+182 silly gunzTarPerm extractEntry examples/app/controllers/component/modal/emforms.coffee
+183 silly gunzTarPerm extractEntry examples/app/controllers/component/modal/forms.coffee
+184 silly gunzTarPerm extractEntry examples/app/controllers/component/modal/openifcloseif.coffee
+185 silly gunzTarPerm extractEntry examples/app/controllers/component/modal/reuse.coffee
+186 silly gunzTarPerm extractEntry examples/app/controllers/component/tabs/c1.coffee
+187 silly gunzTarPerm extractEntry examples/app/controllers/component/tabs/c2.coffee
+188 silly gunzTarPerm extractEntry examples/app/controllers/component/tabs/query-params.coffee
+189 silly gunzTarPerm extractEntry examples/app/controllers/component/tree/async.coffee
+190 silly gunzTarPerm extractEntry examples/app/controllers/component/tree/expand.coffee
+191 silly gunzTarPerm extractEntry examples/app/controllers/component/tree/hoveredactions.coffee
+192 silly gunzTarPerm extractEntry examples/app/controllers/component/tree/multiselection.coffee
+193 silly gunzTarPerm extractEntry examples/app/controllers/component/tree/simple.coffee
+194 silly gunzTarPerm extractEntry examples/app/controllers/sidebar.coffee
+195 silly gunzTarPerm extractEntry examples/app/helpers/.gitkeep
+196 silly gunzTarPerm extractEntry examples/app/index.html
+197 silly gunzTarPerm extractEntry examples/app/adapters/application.coffee
+198 silly gunzTarPerm extractEntry examples/app/models/.gitkeep
+199 silly gunzTarPerm extractEntry examples/app/models/tag.coffee
+200 silly gunzTarPerm extractEntry examples/app/models/user.coffee
+201 silly gunzTarPerm extractEntry examples/app/router.coffee
+202 silly gunzTarPerm extractEntry examples/app/routes/.gitkeep
+203 silly gunzTarPerm extractEntry examples/app/routes/component/list/models.coffee
+204 silly gunzTarPerm extractEntry examples/app/routes/component/modal/emforms.coffee
+205 silly gunzTarPerm extractEntry examples/app/routes/component/modal/reuse.coffee
+206 silly gunzTarPerm extractEntry examples/app/routes/component/tree/async.coffee
+207 silly gunzTarPerm extractEntry examples/app/routes/component/tree/emberdata.coffee
+208 silly gunzTarPerm extractEntry examples/app/routes/component/tree/expand.coffee
+209 silly gunzTarPerm extractEntry examples/app/routes/component/tree/multiselection.coffee
+210 silly gunzTarPerm extractEntry examples/app/routes/index.coffee
+211 silly gunzTarPerm extractEntry examples/app/styles/.gitkeep
+212 silly gunzTarPerm extractEntry examples/app/styles/app.css
+213 silly gunzTarPerm extractEntry examples/app/templates/.gitkeep
+214 silly gunzTarPerm extractEntry examples/app/templates/application.hbs
+215 silly gunzTarPerm extractEntry examples/app/templates/component/accordion/controller_per_item.hbs
+216 silly gunzTarPerm extractEntry examples/app/templates/component/accordion/query_params.hbs
+217 silly gunzTarPerm extractEntry examples/app/templates/component/accordion/simple.hbs
+218 silly gunzTarPerm extractEntry examples/app/templates/component/button/index.hbs
+219 silly gunzTarPerm extractEntry examples/app/templates/component/forms/index.hbs
+220 silly gunzTarPerm extractEntry examples/app/templates/component/index.hbs
+221 silly gunzTarPerm extractEntry examples/app/templates/component/list/models.hbs
+222 silly gunzTarPerm extractEntry examples/app/templates/component/list/simple.hbs
+223 silly gunzTarPerm extractEntry examples/app/templates/component/list/state.hbs
+224 silly gunzTarPerm extractEntry examples/app/templates/component/modal/confirm.hbs
+225 silly gunzTarPerm extractEntry examples/app/templates/component/modal/emforms.hbs
+226 silly gunzTarPerm extractEntry examples/app/templates/component/modal/forms.hbs
+227 silly gunzTarPerm extractEntry examples/app/templates/component/modal/openifcloseif.hbs
+228 silly gunzTarPerm extractEntry examples/app/templates/component/modal/reuse.hbs
+229 silly gunzTarPerm extractEntry examples/app/templates/component/modal/simple.hbs
+230 silly gunzTarPerm extractEntry examples/app/templates/component/tabs/c1.hbs
+231 silly gunzTarPerm extractEntry examples/app/templates/component/tabs/c2.hbs
+232 silly gunzTarPerm extractEntry examples/app/templates/component/tabs/c3.hbs
+233 silly gunzTarPerm extractEntry examples/app/templates/component/tabs/controller_per_tab.hbs
+234 silly gunzTarPerm extractEntry examples/app/templates/component/tabs/query_params.hbs
+235 silly gunzTarPerm extractEntry examples/app/templates/component/tabs/simple.hbs
+236 silly gunzTarPerm extractEntry examples/app/templates/component/tree/async.hbs
+237 silly gunzTarPerm extractEntry examples/app/templates/component/tree/emberdata.hbs
+238 silly gunzTarPerm extractEntry examples/app/templates/component/tree/expand.hbs
+239 silly gunzTarPerm extractEntry examples/app/templates/component/tree/hoveredactions.hbs
+240 silly gunzTarPerm extractEntry examples/app/templates/component/tree/multiselection.hbs
+241 silly gunzTarPerm extractEntry examples/app/templates/component/tree/simple.hbs
+242 silly gunzTarPerm extractEntry examples/app/templates/component/wysiwyg/simple.hbs
+243 silly gunzTarPerm extractEntry examples/app/templates/components/.gitkeep
+244 silly gunzTarPerm extractEntry examples/app/templates/getstarted.hbs
+245 silly gunzTarPerm extractEntry examples/app/templates/index.hbs
+246 silly gunzTarPerm extractEntry examples/app/templates/navbar.hbs
+247 silly gunzTarPerm extractEntry examples/app/templates/overview.hbs
+248 silly gunzTarPerm extractEntry examples/app/templates/sidebar.hbs
+249 silly gunzTarPerm extractEntry examples/app/views/.gitkeep
+250 silly gunzTarPerm extractEntry examples/bower.json
+251 silly gunzTarPerm extractEntry examples/.bowerrc
+252 silly gunzTarPerm extractEntry examples/copy.sh
+253 silly gunzTarPerm extractEntry examples/tests/index.html
+254 silly gunzTarPerm extractEntry examples/.jshintrc
+255 silly gunzTarPerm extractEntry examples/public/.gitkeep
+256 silly gunzTarPerm extractEntry examples/public/assets/img/ember_logo.png
+257 silly gunzTarPerm extractEntry yuidoc.json
+258 silly gunzTarPerm extractEntry bower.json
+259 silly gunzTarPerm extractEntry to_certi.sh
+260 silly gunzTarPerm extractEntry dist/amd/main.js
+261 silly gunzTarPerm extractEntry dist/amd/accordion/accordion-item-tmpl.js
+262 silly gunzTarPerm extractEntry dist/amd/accordion/accordion-item.js
+263 silly gunzTarPerm extractEntry dist/amd/accordion/accordion.js
+264 silly gunzTarPerm extractEntry dist/amd/button/button-tmpl.js
+265 silly gunzTarPerm extractEntry dist/amd/button/button.js
+266 silly gunzTarPerm extractEntry dist/amd/list/as-item.js
+267 silly gunzTarPerm extractEntry dist/amd/list/list-item.js
+268 silly gunzTarPerm extractEntry dist/amd/list/list.js
+269 silly gunzTarPerm extractEntry dist/amd/modal/modal-body.js
+270 silly gunzTarPerm extractEntry dist/amd/modal/modal-confirm.js
+271 silly gunzTarPerm extractEntry dist/amd/modal/modal-css.js
+272 silly gunzTarPerm extractEntry dist/amd/modal/modal-emform.js
+273 silly gunzTarPerm extractEntry dist/amd/modal/modal-confirm-tmpl.js
+274 silly gunzTarPerm extractEntry dist/amd/modal/modal-form.js
+275 silly gunzTarPerm extractEntry dist/amd/modal/modal-title.js
+276 silly gunzTarPerm extractEntry dist/amd/modal/modal-tmpl.js
+277 silly gunzTarPerm extractEntry dist/amd/modal/modal-toggler.js
+278 silly gunzTarPerm extractEntry dist/amd/modal/modal.js
+279 silly gunzTarPerm extractEntry dist/amd/modal/modal-footer.js
+280 silly gunzTarPerm extractEntry dist/amd/tabs/tab-list.js
+281 silly gunzTarPerm extractEntry dist/amd/tabs/tab-panel.js
+282 silly gunzTarPerm extractEntry dist/amd/tabs/tab.js
+283 silly gunzTarPerm extractEntry dist/amd/tabs/tabs-css.js
+284 silly gunzTarPerm extractEntry dist/amd/tabs/tabs.js
+285 silly gunzTarPerm extractEntry dist/amd/tree/node.js
+286 silly gunzTarPerm extractEntry dist/amd/tree/tree-branch-tmpl.js
+287 silly gunzTarPerm extractEntry dist/amd/tree/tree-branch.js
+288 silly gunzTarPerm extractEntry dist/amd/tree/tree-css.js
+289 silly gunzTarPerm extractEntry dist/amd/tree/tree-node-icon-action.js
+290 silly gunzTarPerm extractEntry dist/amd/tree/tree-node-tmpl.js
+291 silly gunzTarPerm extractEntry dist/amd/tree/tree-node.js
+292 silly gunzTarPerm extractEntry dist/amd/tree/tree-tmpl.js
+293 silly gunzTarPerm extractEntry dist/amd/tree/tree.js
+294 silly gunzTarPerm extractEntry dist/amd/wysiwyg/action-group.js
+295 silly gunzTarPerm extractEntry dist/amd/wysiwyg/action.js
+296 silly gunzTarPerm extractEntry dist/amd/wysiwyg/actiontmpl.js
+297 silly gunzTarPerm extractEntry dist/amd/wysiwyg/editor.js
+298 silly gunzTarPerm extractEntry dist/amd/wysiwyg/toolbar.js
+299 silly gunzTarPerm extractEntry dist/amd/wysiwyg/wysiwyg.js
+300 silly gunzTarPerm extractEntry dist/cjs/main.js
+301 silly gunzTarPerm extractEntry dist/cjs/accordion/accordion-item-tmpl.js
+302 silly gunzTarPerm extractEntry dist/cjs/accordion/accordion-item.js
+303 silly gunzTarPerm extractEntry dist/cjs/accordion/accordion.js
+304 silly gunzTarPerm extractEntry dist/cjs/button/button-tmpl.js
+305 silly gunzTarPerm extractEntry dist/cjs/button/button.js
+306 silly gunzTarPerm extractEntry dist/cjs/list/as-item.js
+307 silly gunzTarPerm extractEntry dist/cjs/list/list-item.js
+308 silly gunzTarPerm extractEntry dist/cjs/list/list.js
+309 silly gunzTarPerm extractEntry dist/cjs/modal/modal-body.js
+310 silly gunzTarPerm extractEntry dist/cjs/modal/modal-confirm.js
+311 silly gunzTarPerm extractEntry dist/cjs/modal/modal-css.js
+312 silly gunzTarPerm extractEntry dist/cjs/modal/modal-emform.js
+313 silly gunzTarPerm extractEntry dist/cjs/modal/modal-confirm-tmpl.js
+314 silly gunzTarPerm extractEntry dist/cjs/modal/modal-form.js
+315 silly gunzTarPerm extractEntry dist/cjs/modal/modal-title.js
+316 silly gunzTarPerm extractEntry dist/cjs/modal/modal-tmpl.js
+317 silly gunzTarPerm extractEntry dist/cjs/modal/modal-toggler.js
+318 silly gunzTarPerm extractEntry dist/cjs/modal/modal.js
+319 silly gunzTarPerm extractEntry dist/cjs/modal/modal-footer.js
+320 silly gunzTarPerm extractEntry dist/cjs/tabs/tab-list.js
+321 silly gunzTarPerm extractEntry dist/cjs/tabs/tab-panel.js
+322 silly gunzTarPerm extractEntry dist/cjs/tabs/tab.js
+323 silly gunzTarPerm extractEntry dist/cjs/tabs/tabs-css.js
+324 silly gunzTarPerm extractEntry dist/cjs/tabs/tabs.js
+325 silly gunzTarPerm extractEntry dist/cjs/tree/node.js
+326 silly gunzTarPerm extractEntry dist/cjs/tree/tree-branch-tmpl.js
+327 silly gunzTarPerm extractEntry dist/cjs/tree/tree-branch.js
+328 silly gunzTarPerm extractEntry dist/cjs/tree/tree-css.js
+329 silly gunzTarPerm extractEntry dist/cjs/tree/tree-node-icon-action.js
+330 silly gunzTarPerm extractEntry dist/cjs/tree/tree-node-tmpl.js
+331 silly gunzTarPerm extractEntry dist/cjs/tree/tree-node.js
+332 silly gunzTarPerm extractEntry dist/cjs/tree/tree-tmpl.js
+333 silly gunzTarPerm extractEntry dist/cjs/tree/tree.js
+334 silly gunzTarPerm extractEntry dist/cjs/wysiwyg/action-group.js
+335 silly gunzTarPerm extractEntry dist/cjs/wysiwyg/action.js
+336 silly gunzTarPerm extractEntry dist/cjs/wysiwyg/actiontmpl.js
+337 silly gunzTarPerm extractEntry dist/cjs/wysiwyg/editor.js
+338 silly gunzTarPerm extractEntry dist/cjs/wysiwyg/toolbar.js
+339 silly gunzTarPerm extractEntry dist/cjs/wysiwyg/wysiwyg.js
+340 silly gunzTarPerm extractEntry dist/globals/main.js
+341 silly gunzTarPerm extractEntry dist/named-amd/main.js
+342 silly gunzTarPerm extractEntry scripts/build
+343 silly gunzTarPerm extractEntry scripts/test
+344 silly gunzTarPerm extractEntry test/main.spec.coffee
+345 silly gunzTarPerm extractEntry test/support/setup.js
+346 silly gunzTarPerm extractEntry test/tabs.spec.coffee
+347 silly gunzTarPerm extractEntry testem.json
+348 silly gunzTarPerm extractEntry lib/accordion/accordion-item-tmpl.hbs
+349 silly gunzTarPerm extractEntry lib/accordion/accordion-item.coffee
+350 silly gunzTarPerm extractEntry lib/accordion/accordion.coffee
+351 silly gunzTarPerm extractEntry lib/button/button-tmpl.hbs
+352 silly gunzTarPerm extractEntry lib/button/button.coffee
+353 silly gunzTarPerm extractEntry lib/list/as-item.coffee
+354 silly gunzTarPerm extractEntry lib/list/list-item.coffee
+355 silly gunzTarPerm extractEntry lib/list/list.coffee
+356 silly gunzTarPerm extractEntry lib/main.coffee
+357 silly gunzTarPerm extractEntry lib/modal/modal-footer.coffee
+358 silly gunzTarPerm extractEntry lib/modal/modal-body.coffee
+359 silly gunzTarPerm extractEntry lib/modal/modal-confirm.coffee
+360 silly gunzTarPerm extractEntry lib/modal/modal-css.hbs
+361 silly gunzTarPerm extractEntry lib/modal/modal-emform.coffee
+362 silly gunzTarPerm extractEntry lib/modal/modal-confirm-tmpl.hbs
+363 silly gunzTarPerm extractEntry lib/modal/modal-form.coffee
+364 silly gunzTarPerm extractEntry lib/modal/modal-title.coffee
+365 silly gunzTarPerm extractEntry lib/modal/modal-tmpl.hbs
+366 silly gunzTarPerm extractEntry lib/modal/modal-toggler.coffee
+367 silly gunzTarPerm extractEntry lib/modal/modal.coffee
+368 silly gunzTarPerm extractEntry lib/tabs/tab-list.coffee
+369 silly gunzTarPerm extractEntry lib/tabs/tab-panel.coffee
+370 silly gunzTarPerm extractEntry lib/tabs/tab.coffee
+371 silly gunzTarPerm extractEntry lib/tabs/tabs-css.hbs
+372 silly gunzTarPerm extractEntry lib/tabs/tabs.coffee
+373 silly gunzTarPerm extractEntry lib/tree/node.coffee
+374 silly gunzTarPerm extractEntry lib/tree/tree-branch-tmpl.hbs
+375 silly gunzTarPerm extractEntry lib/tree/tree-branch.coffee
+376 silly gunzTarPerm extractEntry lib/tree/tree-css.hbs
+377 silly gunzTarPerm extractEntry lib/tree/tree-node-icon-action.coffee
+378 silly gunzTarPerm extractEntry lib/tree/tree-node-tmpl.hbs
+379 silly gunzTarPerm extractEntry lib/tree/tree-node.coffee
+380 silly gunzTarPerm extractEntry lib/tree/tree-tmpl.hbs
+381 silly gunzTarPerm extractEntry lib/tree/tree.coffee
+382 silly gunzTarPerm extractEntry lib/wysiwyg/action-format-tmpl.hbs
+383 silly gunzTarPerm extractEntry lib/wysiwyg/action-format.coffee
+384 silly gunzTarPerm extractEntry lib/wysiwyg/action-group.coffee
+385 silly gunzTarPerm extractEntry lib/wysiwyg/action-link-tmpl.hbs
+386 silly gunzTarPerm extractEntry lib/wysiwyg/action-link.coffee
+387 silly gunzTarPerm extractEntry lib/wysiwyg/action.coffee
+388 silly gunzTarPerm extractEntry lib/wysiwyg/actiontmpl.hbs
+389 silly gunzTarPerm extractEntry lib/wysiwyg/editor.coffee
+390 silly gunzTarPerm extractEntry lib/wysiwyg/toolbar.coffee
+391 silly gunzTarPerm extractEntry lib/wysiwyg/wysiwyg.coffee
+392 silly lockFile 55534597-4751-0-30305882496759295-package tar://C:\Users\bshuey\AppData\Local\Temp\npm-9424-eEQKiqli\1416499204751-0.30305882496759295\package
+393 silly lockFile 55534597-4751-0-30305882496759295-package tar://C:\Users\bshuey\AppData\Local\Temp\npm-9424-eEQKiqli\1416499204751-0.30305882496759295\package
+394 silly lockFile 875215bb-4751-0-30305882496759295-tmp-tgz tar://C:\Users\bshuey\AppData\Local\Temp\npm-9424-eEQKiqli\1416499204751-0.30305882496759295\tmp.tgz
+395 silly lockFile 875215bb-4751-0-30305882496759295-tmp-tgz tar://C:\Users\bshuey\AppData\Local\Temp\npm-9424-eEQKiqli\1416499204751-0.30305882496759295\tmp.tgz
+396 verbose tar pack [ 'C:\\Users\\bshuey\\AppData\\Roaming\\npm-cache\\ember-components\\0.2.0\\package.tgz',
+396 verbose tar pack   'C:\\Users\\bshuey\\AppData\\Local\\Temp\\npm-9424-eEQKiqli\\1416499204751-0.30305882496759295\\package' ]
+397 verbose tarball C:\Users\bshuey\AppData\Roaming\npm-cache\ember-components\0.2.0\package.tgz
+398 verbose folder C:\Users\bshuey\AppData\Local\Temp\npm-9424-eEQKiqli\1416499204751-0.30305882496759295\package
+399 silly lockFile 55534597-4751-0-30305882496759295-package tar://C:\Users\bshuey\AppData\Local\Temp\npm-9424-eEQKiqli\1416499204751-0.30305882496759295\package
+400 verbose lock tar://C:\Users\bshuey\AppData\Local\Temp\npm-9424-eEQKiqli\1416499204751-0.30305882496759295\package C:\Users\bshuey\AppData\Roaming\npm-cache\55534597-4751-0-30305882496759295-package.lock
+401 silly lockFile 72d9fe4c-ber-components-0-2-0-package-tgz tar://C:\Users\bshuey\AppData\Roaming\npm-cache\ember-components\0.2.0\package.tgz
+402 verbose lock tar://C:\Users\bshuey\AppData\Roaming\npm-cache\ember-components\0.2.0\package.tgz C:\Users\bshuey\AppData\Roaming\npm-cache\72d9fe4c-ber-components-0-2-0-package-tgz.lock
+403 silly lockFile 55534597-4751-0-30305882496759295-package tar://C:\Users\bshuey\AppData\Local\Temp\npm-9424-eEQKiqli\1416499204751-0.30305882496759295\package
+404 silly lockFile 55534597-4751-0-30305882496759295-package tar://C:\Users\bshuey\AppData\Local\Temp\npm-9424-eEQKiqli\1416499204751-0.30305882496759295\package
+405 silly lockFile 72d9fe4c-ber-components-0-2-0-package-tgz tar://C:\Users\bshuey\AppData\Roaming\npm-cache\ember-components\0.2.0\package.tgz
+406 silly lockFile 72d9fe4c-ber-components-0-2-0-package-tgz tar://C:\Users\bshuey\AppData\Roaming\npm-cache\ember-components\0.2.0\package.tgz
+407 silly lockFile 60ebb9ae-e-ember-components-0-2-0-package C:\Users\bshuey\AppData\Roaming\npm-cache\ember-components\0.2.0\package
+408 verbose lock C:\Users\bshuey\AppData\Roaming\npm-cache\ember-components\0.2.0\package C:\Users\bshuey\AppData\Roaming\npm-cache\60ebb9ae-e-ember-components-0-2-0-package.lock
+409 silly lockFile 60ebb9ae-e-ember-components-0-2-0-package C:\Users\bshuey\AppData\Roaming\npm-cache\ember-components\0.2.0\package
+410 silly lockFile 60ebb9ae-e-ember-components-0-2-0-package C:\Users\bshuey\AppData\Roaming\npm-cache\ember-components\0.2.0\package
+411 verbose tar unpack C:\Users\bshuey\AppData\Roaming\npm-cache\ember-components\0.2.0\package.tgz
+412 silly lockFile f2934dd9-e-ember-components-0-2-0-package tar://C:\Users\bshuey\AppData\Roaming\npm-cache\ember-components\0.2.0\package
+413 verbose lock tar://C:\Users\bshuey\AppData\Roaming\npm-cache\ember-components\0.2.0\package C:\Users\bshuey\AppData\Roaming\npm-cache\f2934dd9-e-ember-components-0-2-0-package.lock
+414 silly lockFile 72d9fe4c-ber-components-0-2-0-package-tgz tar://C:\Users\bshuey\AppData\Roaming\npm-cache\ember-components\0.2.0\package.tgz
+415 verbose lock tar://C:\Users\bshuey\AppData\Roaming\npm-cache\ember-components\0.2.0\package.tgz C:\Users\bshuey\AppData\Roaming\npm-cache\72d9fe4c-ber-components-0-2-0-package-tgz.lock
+416 silly gunzTarPerm modes [ '755', '644' ]
+417 silly gunzTarPerm extractEntry package.json
+418 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+419 silly gunzTarPerm extractEntry .npmignore
+420 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+421 silly gunzTarPerm extractEntry README.md
+422 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+423 silly gunzTarPerm extractEntry LICENSE
+424 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+425 silly gunzTarPerm extractEntry Brocfile.js
+426 silly gunzTarPerm modified mode [ 'Brocfile.js', 438, 420 ]
+427 silly gunzTarPerm extractEntry karma.conf.js
+428 silly gunzTarPerm modified mode [ 'karma.conf.js', 438, 420 ]
+429 silly gunzTarPerm extractEntry examples/package.json
+430 silly gunzTarPerm modified mode [ 'examples/package.json', 438, 420 ]
+431 silly gunzTarPerm extractEntry examples/.npmignore
+432 silly gunzTarPerm modified mode [ 'examples/.npmignore', 438, 420 ]
+433 silly gunzTarPerm extractEntry examples/README.md
+434 silly gunzTarPerm modified mode [ 'examples/README.md', 438, 420 ]
+435 silly gunzTarPerm extractEntry examples/Brocfile.js
+436 silly gunzTarPerm modified mode [ 'examples/Brocfile.js', 438, 420 ]
+437 silly gunzTarPerm extractEntry examples/bower.json
+438 silly gunzTarPerm modified mode [ 'examples/bower.json', 438, 420 ]
+439 silly gunzTarPerm extractEntry examples/app/app.js
+440 silly gunzTarPerm modified mode [ 'examples/app/app.js', 438, 420 ]
+441 silly gunzTarPerm extractEntry examples/app/initializers/hightlightjs.coffee
+442 silly gunzTarPerm modified mode [ 'examples/app/initializers/hightlightjs.coffee', 438, 420 ]
+443 silly gunzTarPerm extractEntry examples/app/initializers/scrolltotop.coffee
+444 silly gunzTarPerm modified mode [ 'examples/app/initializers/scrolltotop.coffee', 438, 420 ]
+445 silly gunzTarPerm extractEntry examples/app/components/.gitkeep
+446 silly gunzTarPerm modified mode [ 'examples/app/components/.gitkeep', 438, 420 ]
+447 silly gunzTarPerm extractEntry examples/app/controllers/.gitkeep
+448 silly gunzTarPerm modified mode [ 'examples/app/controllers/.gitkeep', 438, 420 ]
+449 silly gunzTarPerm extractEntry examples/app/controllers/component/accordion/query-params.coffee
+450 silly gunzTarPerm modified mode [ 'examples/app/controllers/component/accordion/query-params.coffee',
+450 silly gunzTarPerm   438,
+450 silly gunzTarPerm   420 ]
+451 silly gunzTarPerm extractEntry examples/app/controllers/component/button/index.coffee
+452 silly gunzTarPerm modified mode [ 'examples/app/controllers/component/button/index.coffee',
+452 silly gunzTarPerm   438,
+452 silly gunzTarPerm   420 ]
+453 silly gunzTarPerm extractEntry examples/app/controllers/component/list/models.coffee
+454 silly gunzTarPerm modified mode [ 'examples/app/controllers/component/list/models.coffee',
+454 silly gunzTarPerm   438,
+454 silly gunzTarPerm   420 ]
+455 silly gunzTarPerm extractEntry examples/app/controllers/component/list/state.coffee
+456 silly gunzTarPerm modified mode [ 'examples/app/controllers/component/list/state.coffee',
+456 silly gunzTarPerm   438,
+456 silly gunzTarPerm   420 ]
+457 silly gunzTarPerm extractEntry examples/app/controllers/component/modal/confirm.coffee
+458 silly gunzTarPerm modified mode [ 'examples/app/controllers/component/modal/confirm.coffee',
+458 silly gunzTarPerm   438,
+458 silly gunzTarPerm   420 ]
+459 silly gunzTarPerm extractEntry examples/app/controllers/component/modal/emforms.coffee
+460 silly gunzTarPerm modified mode [ 'examples/app/controllers/component/modal/emforms.coffee',
+460 silly gunzTarPerm   438,
+460 silly gunzTarPerm   420 ]
+461 silly gunzTarPerm extractEntry examples/app/controllers/component/modal/forms.coffee
+462 silly gunzTarPerm modified mode [ 'examples/app/controllers/component/modal/forms.coffee',
+462 silly gunzTarPerm   438,
+462 silly gunzTarPerm   420 ]
+463 silly gunzTarPerm extractEntry examples/app/controllers/component/modal/openifcloseif.coffee
+464 silly gunzTarPerm modified mode [ 'examples/app/controllers/component/modal/openifcloseif.coffee',
+464 silly gunzTarPerm   438,
+464 silly gunzTarPerm   420 ]
+465 silly gunzTarPerm extractEntry examples/app/controllers/component/modal/reuse.coffee
+466 silly gunzTarPerm modified mode [ 'examples/app/controllers/component/modal/reuse.coffee',
+466 silly gunzTarPerm   438,
+466 silly gunzTarPerm   420 ]
+467 silly gunzTarPerm extractEntry examples/app/controllers/component/tabs/c1.coffee
+468 silly gunzTarPerm modified mode [ 'examples/app/controllers/component/tabs/c1.coffee', 438, 420 ]
+469 silly gunzTarPerm extractEntry examples/app/controllers/component/tabs/c2.coffee
+470 silly gunzTarPerm modified mode [ 'examples/app/controllers/component/tabs/c2.coffee', 438, 420 ]
+471 silly gunzTarPerm extractEntry examples/app/controllers/component/tabs/query-params.coffee
+472 silly gunzTarPerm modified mode [ 'examples/app/controllers/component/tabs/query-params.coffee',
+472 silly gunzTarPerm   438,
+472 silly gunzTarPerm   420 ]
+473 silly gunzTarPerm extractEntry examples/app/controllers/component/tree/async.coffee
+474 silly gunzTarPerm modified mode [ 'examples/app/controllers/component/tree/async.coffee',
+474 silly gunzTarPerm   438,
+474 silly gunzTarPerm   420 ]
+475 silly gunzTarPerm extractEntry examples/app/controllers/component/tree/expand.coffee
+476 silly gunzTarPerm modified mode [ 'examples/app/controllers/component/tree/expand.coffee',
+476 silly gunzTarPerm   438,
+476 silly gunzTarPerm   420 ]
+477 silly gunzTarPerm extractEntry examples/app/controllers/component/tree/hoveredactions.coffee
+478 silly gunzTarPerm modified mode [ 'examples/app/controllers/component/tree/hoveredactions.coffee',
+478 silly gunzTarPerm   438,
+478 silly gunzTarPerm   420 ]
+479 silly gunzTarPerm extractEntry examples/app/controllers/component/tree/multiselection.coffee
+480 silly gunzTarPerm modified mode [ 'examples/app/controllers/component/tree/multiselection.coffee',
+480 silly gunzTarPerm   438,
+480 silly gunzTarPerm   420 ]
+481 silly gunzTarPerm extractEntry examples/app/controllers/component/tree/simple.coffee
+482 silly gunzTarPerm modified mode [ 'examples/app/controllers/component/tree/simple.coffee',
+482 silly gunzTarPerm   438,
+482 silly gunzTarPerm   420 ]
+483 silly gunzTarPerm extractEntry examples/app/controllers/sidebar.coffee
+484 silly gunzTarPerm modified mode [ 'examples/app/controllers/sidebar.coffee', 438, 420 ]
+485 silly gunzTarPerm extractEntry examples/app/helpers/.gitkeep
+486 silly gunzTarPerm modified mode [ 'examples/app/helpers/.gitkeep', 438, 420 ]
+487 silly gunzTarPerm extractEntry examples/app/index.html
+488 silly gunzTarPerm modified mode [ 'examples/app/index.html', 438, 420 ]
+489 silly gunzTarPerm extractEntry examples/app/adapters/application.coffee
+490 silly gunzTarPerm modified mode [ 'examples/app/adapters/application.coffee', 438, 420 ]
+491 silly gunzTarPerm extractEntry examples/app/models/.gitkeep
+492 silly gunzTarPerm modified mode [ 'examples/app/models/.gitkeep', 438, 420 ]
+493 silly gunzTarPerm extractEntry examples/app/models/tag.coffee
+494 silly gunzTarPerm modified mode [ 'examples/app/models/tag.coffee', 438, 420 ]
+495 silly gunzTarPerm extractEntry examples/app/models/user.coffee
+496 silly gunzTarPerm modified mode [ 'examples/app/models/user.coffee', 438, 420 ]
+497 silly gunzTarPerm extractEntry examples/app/router.coffee
+498 silly gunzTarPerm modified mode [ 'examples/app/router.coffee', 438, 420 ]
+499 silly gunzTarPerm extractEntry examples/app/routes/.gitkeep
+500 silly gunzTarPerm modified mode [ 'examples/app/routes/.gitkeep', 438, 420 ]
+501 silly gunzTarPerm extractEntry examples/app/routes/component/list/models.coffee
+502 silly gunzTarPerm modified mode [ 'examples/app/routes/component/list/models.coffee', 438, 420 ]
+503 silly gunzTarPerm extractEntry examples/app/routes/component/modal/emforms.coffee
+504 silly gunzTarPerm modified mode [ 'examples/app/routes/component/modal/emforms.coffee',
+504 silly gunzTarPerm   438,
+504 silly gunzTarPerm   420 ]
+505 silly gunzTarPerm extractEntry examples/app/routes/component/modal/reuse.coffee
+506 silly gunzTarPerm modified mode [ 'examples/app/routes/component/modal/reuse.coffee', 438, 420 ]
+507 silly gunzTarPerm extractEntry examples/app/routes/component/tree/async.coffee
+508 silly gunzTarPerm modified mode [ 'examples/app/routes/component/tree/async.coffee', 438, 420 ]
+509 silly gunzTarPerm extractEntry examples/app/routes/component/tree/emberdata.coffee
+510 silly gunzTarPerm modified mode [ 'examples/app/routes/component/tree/emberdata.coffee',
+510 silly gunzTarPerm   438,
+510 silly gunzTarPerm   420 ]
+511 silly gunzTarPerm extractEntry examples/app/routes/component/tree/expand.coffee
+512 silly gunzTarPerm modified mode [ 'examples/app/routes/component/tree/expand.coffee', 438, 420 ]
+513 silly gunzTarPerm extractEntry examples/app/routes/component/tree/multiselection.coffee
+514 silly gunzTarPerm modified mode [ 'examples/app/routes/component/tree/multiselection.coffee',
+514 silly gunzTarPerm   438,
+514 silly gunzTarPerm   420 ]
+515 silly gunzTarPerm extractEntry examples/app/routes/index.coffee
+516 silly gunzTarPerm modified mode [ 'examples/app/routes/index.coffee', 438, 420 ]
+517 silly gunzTarPerm extractEntry examples/app/styles/.gitkeep
+518 silly gunzTarPerm modified mode [ 'examples/app/styles/.gitkeep', 438, 420 ]
+519 silly gunzTarPerm extractEntry examples/app/styles/app.css
+520 silly gunzTarPerm modified mode [ 'examples/app/styles/app.css', 438, 420 ]
+521 silly gunzTarPerm extractEntry examples/app/templates/.gitkeep
+522 silly gunzTarPerm modified mode [ 'examples/app/templates/.gitkeep', 438, 420 ]
+523 silly gunzTarPerm extractEntry examples/app/templates/application.hbs
+524 silly gunzTarPerm modified mode [ 'examples/app/templates/application.hbs', 438, 420 ]
+525 silly gunzTarPerm extractEntry examples/app/templates/component/accordion/controller_per_item.hbs
+526 silly gunzTarPerm modified mode [ 'examples/app/templates/component/accordion/controller_per_item.hbs',
+526 silly gunzTarPerm   438,
+526 silly gunzTarPerm   420 ]
+527 silly gunzTarPerm extractEntry examples/app/templates/component/accordion/query_params.hbs
+528 silly gunzTarPerm modified mode [ 'examples/app/templates/component/accordion/query_params.hbs',
+528 silly gunzTarPerm   438,
+528 silly gunzTarPerm   420 ]
+529 silly gunzTarPerm extractEntry examples/app/templates/component/accordion/simple.hbs
+530 silly gunzTarPerm modified mode [ 'examples/app/templates/component/accordion/simple.hbs',
+530 silly gunzTarPerm   438,
+530 silly gunzTarPerm   420 ]
+531 silly gunzTarPerm extractEntry examples/app/templates/component/button/index.hbs
+532 silly gunzTarPerm modified mode [ 'examples/app/templates/component/button/index.hbs', 438, 420 ]
+533 silly gunzTarPerm extractEntry examples/app/templates/component/forms/index.hbs
+534 silly gunzTarPerm modified mode [ 'examples/app/templates/component/forms/index.hbs', 438, 420 ]
+535 silly gunzTarPerm extractEntry examples/app/templates/component/index.hbs
+536 silly gunzTarPerm modified mode [ 'examples/app/templates/component/index.hbs', 438, 420 ]
+537 silly gunzTarPerm extractEntry examples/app/templates/component/list/models.hbs
+538 silly gunzTarPerm modified mode [ 'examples/app/templates/component/list/models.hbs', 438, 420 ]
+539 silly gunzTarPerm extractEntry examples/app/templates/component/list/simple.hbs
+540 silly gunzTarPerm modified mode [ 'examples/app/templates/component/list/simple.hbs', 438, 420 ]
+541 silly gunzTarPerm extractEntry examples/app/templates/component/list/state.hbs
+542 silly gunzTarPerm modified mode [ 'examples/app/templates/component/list/state.hbs', 438, 420 ]
+543 silly gunzTarPerm extractEntry examples/app/templates/component/modal/confirm.hbs
+544 silly gunzTarPerm modified mode [ 'examples/app/templates/component/modal/confirm.hbs',
+544 silly gunzTarPerm   438,
+544 silly gunzTarPerm   420 ]
+545 silly gunzTarPerm extractEntry examples/app/templates/component/modal/emforms.hbs
+546 silly gunzTarPerm modified mode [ 'examples/app/templates/component/modal/emforms.hbs',
+546 silly gunzTarPerm   438,
+546 silly gunzTarPerm   420 ]
+547 silly gunzTarPerm extractEntry examples/app/templates/component/modal/forms.hbs
+548 silly gunzTarPerm modified mode [ 'examples/app/templates/component/modal/forms.hbs', 438, 420 ]
+549 silly gunzTarPerm extractEntry examples/app/templates/component/modal/openifcloseif.hbs
+550 silly gunzTarPerm modified mode [ 'examples/app/templates/component/modal/openifcloseif.hbs',
+550 silly gunzTarPerm   438,
+550 silly gunzTarPerm   420 ]
+551 silly gunzTarPerm extractEntry examples/app/templates/component/modal/reuse.hbs
+552 silly gunzTarPerm modified mode [ 'examples/app/templates/component/modal/reuse.hbs', 438, 420 ]
+553 silly gunzTarPerm extractEntry examples/app/templates/component/modal/simple.hbs
+554 silly gunzTarPerm modified mode [ 'examples/app/templates/component/modal/simple.hbs', 438, 420 ]
+555 silly gunzTarPerm extractEntry examples/app/templates/component/tabs/c1.hbs
+556 silly gunzTarPerm modified mode [ 'examples/app/templates/component/tabs/c1.hbs', 438, 420 ]
+557 silly gunzTarPerm extractEntry examples/app/templates/component/tabs/c2.hbs
+558 silly gunzTarPerm modified mode [ 'examples/app/templates/component/tabs/c2.hbs', 438, 420 ]
+559 silly gunzTarPerm extractEntry examples/app/templates/component/tabs/c3.hbs
+560 silly gunzTarPerm modified mode [ 'examples/app/templates/component/tabs/c3.hbs', 438, 420 ]
+561 silly gunzTarPerm extractEntry examples/app/templates/component/tabs/controller_per_tab.hbs
+562 silly gunzTarPerm modified mode [ 'examples/app/templates/component/tabs/controller_per_tab.hbs',
+562 silly gunzTarPerm   438,
+562 silly gunzTarPerm   420 ]
+563 silly gunzTarPerm extractEntry examples/app/templates/component/tabs/query_params.hbs
+564 silly gunzTarPerm modified mode [ 'examples/app/templates/component/tabs/query_params.hbs',
+564 silly gunzTarPerm   438,
+564 silly gunzTarPerm   420 ]
+565 silly gunzTarPerm extractEntry examples/app/templates/component/tabs/simple.hbs
+566 silly gunzTarPerm modified mode [ 'examples/app/templates/component/tabs/simple.hbs', 438, 420 ]
+567 silly gunzTarPerm extractEntry examples/app/templates/component/tree/async.hbs
+568 silly gunzTarPerm modified mode [ 'examples/app/templates/component/tree/async.hbs', 438, 420 ]
+569 silly gunzTarPerm extractEntry examples/app/templates/component/tree/emberdata.hbs
+570 silly gunzTarPerm modified mode [ 'examples/app/templates/component/tree/emberdata.hbs',
+570 silly gunzTarPerm   438,
+570 silly gunzTarPerm   420 ]
+571 silly gunzTarPerm extractEntry examples/app/templates/component/tree/expand.hbs
+572 silly gunzTarPerm modified mode [ 'examples/app/templates/component/tree/expand.hbs', 438, 420 ]
+573 silly gunzTarPerm extractEntry examples/app/templates/component/tree/hoveredactions.hbs
+574 silly gunzTarPerm modified mode [ 'examples/app/templates/component/tree/hoveredactions.hbs',
+574 silly gunzTarPerm   438,
+574 silly gunzTarPerm   420 ]
+575 silly gunzTarPerm extractEntry examples/app/templates/component/tree/multiselection.hbs
+576 silly gunzTarPerm modified mode [ 'examples/app/templates/component/tree/multiselection.hbs',
+576 silly gunzTarPerm   438,
+576 silly gunzTarPerm   420 ]
+577 silly gunzTarPerm extractEntry examples/app/templates/component/tree/simple.hbs
+578 silly gunzTarPerm modified mode [ 'examples/app/templates/component/tree/simple.hbs', 438, 420 ]
+579 silly gunzTarPerm extractEntry examples/app/templates/component/wysiwyg/simple.hbs
+580 silly gunzTarPerm modified mode [ 'examples/app/templates/component/wysiwyg/simple.hbs',
+580 silly gunzTarPerm   438,
+580 silly gunzTarPerm   420 ]
+581 silly gunzTarPerm extractEntry examples/app/templates/components/.gitkeep
+582 silly gunzTarPerm modified mode [ 'examples/app/templates/components/.gitkeep', 438, 420 ]
+583 silly gunzTarPerm extractEntry examples/app/templates/getstarted.hbs
+584 silly gunzTarPerm modified mode [ 'examples/app/templates/getstarted.hbs', 438, 420 ]
+585 silly gunzTarPerm extractEntry examples/app/templates/index.hbs
+586 silly gunzTarPerm modified mode [ 'examples/app/templates/index.hbs', 438, 420 ]
+587 silly gunzTarPerm extractEntry examples/app/templates/navbar.hbs
+588 silly gunzTarPerm modified mode [ 'examples/app/templates/navbar.hbs', 438, 420 ]
+589 silly gunzTarPerm extractEntry examples/app/templates/overview.hbs
+590 silly gunzTarPerm modified mode [ 'examples/app/templates/overview.hbs', 438, 420 ]
+591 silly gunzTarPerm extractEntry examples/app/templates/sidebar.hbs
+592 silly gunzTarPerm modified mode [ 'examples/app/templates/sidebar.hbs', 438, 420 ]
+593 silly gunzTarPerm extractEntry examples/app/views/.gitkeep
+594 silly gunzTarPerm modified mode [ 'examples/app/views/.gitkeep', 438, 420 ]
+595 silly gunzTarPerm extractEntry examples/.jshintrc
+596 silly gunzTarPerm modified mode [ 'examples/.jshintrc', 438, 420 ]
+597 silly gunzTarPerm extractEntry examples/config/environment.js
+598 silly gunzTarPerm modified mode [ 'examples/config/environment.js', 438, 420 ]
+599 silly gunzTarPerm extractEntry examples/copy.sh
+600 silly gunzTarPerm modified mode [ 'examples/copy.sh', 438, 420 ]
+601 silly gunzTarPerm extractEntry examples/.bowerrc
+602 silly gunzTarPerm modified mode [ 'examples/.bowerrc', 438, 420 ]
+603 silly gunzTarPerm extractEntry examples/public/.gitkeep
+604 silly gunzTarPerm modified mode [ 'examples/public/.gitkeep', 438, 420 ]
+605 silly gunzTarPerm extractEntry examples/public/assets/img/ember_logo.png
+606 silly gunzTarPerm modified mode [ 'examples/public/assets/img/ember_logo.png', 438, 420 ]
+607 silly gunzTarPerm extractEntry examples/tests/index.html
+608 silly gunzTarPerm modified mode [ 'examples/tests/index.html', 438, 420 ]
+609 silly gunzTarPerm extractEntry dist/amd/main.js
+610 silly gunzTarPerm modified mode [ 'dist/amd/main.js', 438, 420 ]
+611 silly gunzTarPerm extractEntry dist/amd/accordion/accordion-item-tmpl.js
+612 silly gunzTarPerm modified mode [ 'dist/amd/accordion/accordion-item-tmpl.js', 438, 420 ]
+613 silly gunzTarPerm extractEntry dist/amd/accordion/accordion-item.js
+614 silly gunzTarPerm modified mode [ 'dist/amd/accordion/accordion-item.js', 438, 420 ]
+615 silly gunzTarPerm extractEntry dist/amd/accordion/accordion.js
+616 silly gunzTarPerm modified mode [ 'dist/amd/accordion/accordion.js', 438, 420 ]
+617 silly gunzTarPerm extractEntry dist/amd/button/button-tmpl.js
+618 silly gunzTarPerm modified mode [ 'dist/amd/button/button-tmpl.js', 438, 420 ]
+619 silly gunzTarPerm extractEntry dist/amd/button/button.js
+620 silly gunzTarPerm modified mode [ 'dist/amd/button/button.js', 438, 420 ]
+621 silly gunzTarPerm extractEntry dist/amd/list/as-item.js
+622 silly gunzTarPerm modified mode [ 'dist/amd/list/as-item.js', 438, 420 ]
+623 silly gunzTarPerm extractEntry dist/amd/list/list-item.js
+624 silly gunzTarPerm modified mode [ 'dist/amd/list/list-item.js', 438, 420 ]
+625 silly gunzTarPerm extractEntry dist/amd/list/list.js
+626 silly gunzTarPerm modified mode [ 'dist/amd/list/list.js', 438, 420 ]
+627 silly gunzTarPerm extractEntry dist/amd/modal/modal-body.js
+628 silly gunzTarPerm modified mode [ 'dist/amd/modal/modal-body.js', 438, 420 ]
+629 silly gunzTarPerm extractEntry dist/amd/modal/modal-confirm.js
+630 silly gunzTarPerm modified mode [ 'dist/amd/modal/modal-confirm.js', 438, 420 ]
+631 silly gunzTarPerm extractEntry dist/amd/modal/modal-css.js
+632 silly gunzTarPerm modified mode [ 'dist/amd/modal/modal-css.js', 438, 420 ]
+633 silly gunzTarPerm extractEntry dist/amd/modal/modal-emform.js
+634 silly gunzTarPerm modified mode [ 'dist/amd/modal/modal-emform.js', 438, 420 ]
+635 silly gunzTarPerm extractEntry dist/amd/modal/modal-confirm-tmpl.js
+636 silly gunzTarPerm modified mode [ 'dist/amd/modal/modal-confirm-tmpl.js', 438, 420 ]
+637 silly gunzTarPerm extractEntry dist/amd/modal/modal-form.js
+638 silly gunzTarPerm modified mode [ 'dist/amd/modal/modal-form.js', 438, 420 ]
+639 silly gunzTarPerm extractEntry dist/amd/modal/modal-title.js
+640 silly gunzTarPerm modified mode [ 'dist/amd/modal/modal-title.js', 438, 420 ]
+641 silly gunzTarPerm extractEntry dist/amd/modal/modal-tmpl.js
+642 silly gunzTarPerm modified mode [ 'dist/amd/modal/modal-tmpl.js', 438, 420 ]
+643 silly gunzTarPerm extractEntry dist/amd/modal/modal-toggler.js
+644 silly gunzTarPerm modified mode [ 'dist/amd/modal/modal-toggler.js', 438, 420 ]
+645 silly gunzTarPerm extractEntry dist/amd/modal/modal.js
+646 silly gunzTarPerm modified mode [ 'dist/amd/modal/modal.js', 438, 420 ]
+647 silly gunzTarPerm extractEntry dist/amd/modal/modal-footer.js
+648 silly gunzTarPerm modified mode [ 'dist/amd/modal/modal-footer.js', 438, 420 ]
+649 silly gunzTarPerm extractEntry dist/amd/tabs/tab-list.js
+650 silly gunzTarPerm modified mode [ 'dist/amd/tabs/tab-list.js', 438, 420 ]
+651 silly gunzTarPerm extractEntry dist/amd/tabs/tab-panel.js
+652 silly gunzTarPerm modified mode [ 'dist/amd/tabs/tab-panel.js', 438, 420 ]
+653 silly gunzTarPerm extractEntry dist/amd/tabs/tab.js
+654 silly gunzTarPerm modified mode [ 'dist/amd/tabs/tab.js', 438, 420 ]
+655 silly gunzTarPerm extractEntry dist/amd/tabs/tabs-css.js
+656 silly gunzTarPerm modified mode [ 'dist/amd/tabs/tabs-css.js', 438, 420 ]
+657 silly gunzTarPerm extractEntry dist/amd/tabs/tabs.js
+658 silly gunzTarPerm modified mode [ 'dist/amd/tabs/tabs.js', 438, 420 ]
+659 silly gunzTarPerm extractEntry dist/amd/tree/node.js
+660 silly gunzTarPerm modified mode [ 'dist/amd/tree/node.js', 438, 420 ]
+661 silly gunzTarPerm extractEntry dist/amd/tree/tree-branch-tmpl.js
+662 silly gunzTarPerm modified mode [ 'dist/amd/tree/tree-branch-tmpl.js', 438, 420 ]
+663 silly gunzTarPerm extractEntry dist/amd/tree/tree-branch.js
+664 silly gunzTarPerm modified mode [ 'dist/amd/tree/tree-branch.js', 438, 420 ]
+665 silly gunzTarPerm extractEntry dist/amd/tree/tree-css.js
+666 silly gunzTarPerm modified mode [ 'dist/amd/tree/tree-css.js', 438, 420 ]
+667 silly gunzTarPerm extractEntry dist/amd/tree/tree-node-icon-action.js
+668 silly gunzTarPerm modified mode [ 'dist/amd/tree/tree-node-icon-action.js', 438, 420 ]
+669 silly gunzTarPerm extractEntry dist/amd/tree/tree-node-tmpl.js
+670 silly gunzTarPerm modified mode [ 'dist/amd/tree/tree-node-tmpl.js', 438, 420 ]
+671 silly gunzTarPerm extractEntry dist/amd/tree/tree-node.js
+672 silly gunzTarPerm modified mode [ 'dist/amd/tree/tree-node.js', 438, 420 ]
+673 silly gunzTarPerm extractEntry dist/amd/tree/tree-tmpl.js
+674 silly gunzTarPerm modified mode [ 'dist/amd/tree/tree-tmpl.js', 438, 420 ]
+675 silly gunzTarPerm extractEntry dist/amd/tree/tree.js
+676 silly gunzTarPerm modified mode [ 'dist/amd/tree/tree.js', 438, 420 ]
+677 silly gunzTarPerm extractEntry dist/amd/wysiwyg/action-group.js
+678 silly gunzTarPerm modified mode [ 'dist/amd/wysiwyg/action-group.js', 438, 420 ]
+679 silly gunzTarPerm extractEntry dist/amd/wysiwyg/action.js
+680 silly gunzTarPerm modified mode [ 'dist/amd/wysiwyg/action.js', 438, 420 ]
+681 silly gunzTarPerm extractEntry dist/amd/wysiwyg/actiontmpl.js
+682 silly gunzTarPerm modified mode [ 'dist/amd/wysiwyg/actiontmpl.js', 438, 420 ]
+683 silly gunzTarPerm extractEntry dist/amd/wysiwyg/editor.js
+684 silly gunzTarPerm modified mode [ 'dist/amd/wysiwyg/editor.js', 438, 420 ]
+685 silly gunzTarPerm extractEntry dist/amd/wysiwyg/toolbar.js
+686 silly gunzTarPerm modified mode [ 'dist/amd/wysiwyg/toolbar.js', 438, 420 ]
+687 silly gunzTarPerm extractEntry dist/amd/wysiwyg/wysiwyg.js
+688 silly gunzTarPerm modified mode [ 'dist/amd/wysiwyg/wysiwyg.js', 438, 420 ]
+689 silly gunzTarPerm extractEntry dist/cjs/main.js
+690 silly gunzTarPerm modified mode [ 'dist/cjs/main.js', 438, 420 ]
+691 silly gunzTarPerm extractEntry dist/cjs/accordion/accordion-item-tmpl.js
+692 silly gunzTarPerm modified mode [ 'dist/cjs/accordion/accordion-item-tmpl.js', 438, 420 ]
+693 silly gunzTarPerm extractEntry dist/cjs/accordion/accordion-item.js
+694 silly gunzTarPerm modified mode [ 'dist/cjs/accordion/accordion-item.js', 438, 420 ]
+695 silly gunzTarPerm extractEntry dist/cjs/accordion/accordion.js
+696 silly gunzTarPerm modified mode [ 'dist/cjs/accordion/accordion.js', 438, 420 ]
+697 silly gunzTarPerm extractEntry dist/cjs/button/button-tmpl.js
+698 silly gunzTarPerm modified mode [ 'dist/cjs/button/button-tmpl.js', 438, 420 ]
+699 silly gunzTarPerm extractEntry dist/cjs/button/button.js
+700 silly gunzTarPerm modified mode [ 'dist/cjs/button/button.js', 438, 420 ]
+701 silly gunzTarPerm extractEntry dist/cjs/list/as-item.js
+702 silly gunzTarPerm modified mode [ 'dist/cjs/list/as-item.js', 438, 420 ]
+703 silly gunzTarPerm extractEntry dist/cjs/list/list-item.js
+704 silly gunzTarPerm modified mode [ 'dist/cjs/list/list-item.js', 438, 420 ]
+705 silly gunzTarPerm extractEntry dist/cjs/list/list.js
+706 silly gunzTarPerm modified mode [ 'dist/cjs/list/list.js', 438, 420 ]
+707 silly gunzTarPerm extractEntry dist/cjs/modal/modal-body.js
+708 silly gunzTarPerm modified mode [ 'dist/cjs/modal/modal-body.js', 438, 420 ]
+709 silly gunzTarPerm extractEntry dist/cjs/modal/modal-confirm.js
+710 silly gunzTarPerm modified mode [ 'dist/cjs/modal/modal-confirm.js', 438, 420 ]
+711 silly gunzTarPerm extractEntry dist/cjs/modal/modal-css.js
+712 silly gunzTarPerm modified mode [ 'dist/cjs/modal/modal-css.js', 438, 420 ]
+713 silly gunzTarPerm extractEntry dist/cjs/modal/modal-emform.js
+714 silly gunzTarPerm modified mode [ 'dist/cjs/modal/modal-emform.js', 438, 420 ]
+715 silly gunzTarPerm extractEntry dist/cjs/modal/modal-confirm-tmpl.js
+716 silly gunzTarPerm modified mode [ 'dist/cjs/modal/modal-confirm-tmpl.js', 438, 420 ]
+717 silly gunzTarPerm extractEntry dist/cjs/modal/modal-form.js
+718 silly gunzTarPerm modified mode [ 'dist/cjs/modal/modal-form.js', 438, 420 ]
+719 silly gunzTarPerm extractEntry dist/cjs/modal/modal-title.js
+720 silly gunzTarPerm modified mode [ 'dist/cjs/modal/modal-title.js', 438, 420 ]
+721 silly gunzTarPerm extractEntry dist/cjs/modal/modal-tmpl.js
+722 silly gunzTarPerm modified mode [ 'dist/cjs/modal/modal-tmpl.js', 438, 420 ]
+723 silly gunzTarPerm extractEntry dist/cjs/modal/modal-toggler.js
+724 silly gunzTarPerm modified mode [ 'dist/cjs/modal/modal-toggler.js', 438, 420 ]
+725 silly gunzTarPerm extractEntry dist/cjs/modal/modal.js
+726 silly gunzTarPerm modified mode [ 'dist/cjs/modal/modal.js', 438, 420 ]
+727 silly gunzTarPerm extractEntry dist/cjs/modal/modal-footer.js
+728 silly gunzTarPerm modified mode [ 'dist/cjs/modal/modal-footer.js', 438, 420 ]
+729 silly gunzTarPerm extractEntry dist/cjs/tabs/tab-list.js
+730 silly gunzTarPerm modified mode [ 'dist/cjs/tabs/tab-list.js', 438, 420 ]
+731 silly gunzTarPerm extractEntry dist/cjs/tabs/tab-panel.js
+732 silly gunzTarPerm modified mode [ 'dist/cjs/tabs/tab-panel.js', 438, 420 ]
+733 silly gunzTarPerm extractEntry dist/cjs/tabs/tab.js
+734 silly gunzTarPerm modified mode [ 'dist/cjs/tabs/tab.js', 438, 420 ]
+735 silly gunzTarPerm extractEntry dist/cjs/tabs/tabs-css.js
+736 silly gunzTarPerm modified mode [ 'dist/cjs/tabs/tabs-css.js', 438, 420 ]
+737 silly gunzTarPerm extractEntry dist/cjs/tabs/tabs.js
+738 silly gunzTarPerm modified mode [ 'dist/cjs/tabs/tabs.js', 438, 420 ]
+739 silly gunzTarPerm extractEntry dist/cjs/tree/node.js
+740 silly gunzTarPerm modified mode [ 'dist/cjs/tree/node.js', 438, 420 ]
+741 silly gunzTarPerm extractEntry dist/cjs/tree/tree-branch-tmpl.js
+742 silly gunzTarPerm modified mode [ 'dist/cjs/tree/tree-branch-tmpl.js', 438, 420 ]
+743 silly gunzTarPerm extractEntry dist/cjs/tree/tree-branch.js
+744 silly gunzTarPerm modified mode [ 'dist/cjs/tree/tree-branch.js', 438, 420 ]
+745 silly gunzTarPerm extractEntry dist/cjs/tree/tree-css.js
+746 silly gunzTarPerm modified mode [ 'dist/cjs/tree/tree-css.js', 438, 420 ]
+747 silly gunzTarPerm extractEntry dist/cjs/tree/tree-node-icon-action.js
+748 silly gunzTarPerm modified mode [ 'dist/cjs/tree/tree-node-icon-action.js', 438, 420 ]
+749 silly gunzTarPerm extractEntry dist/cjs/tree/tree-node-tmpl.js
+750 silly gunzTarPerm modified mode [ 'dist/cjs/tree/tree-node-tmpl.js', 438, 420 ]
+751 silly gunzTarPerm extractEntry dist/cjs/tree/tree-node.js
+752 silly gunzTarPerm modified mode [ 'dist/cjs/tree/tree-node.js', 438, 420 ]
+753 silly gunzTarPerm extractEntry dist/cjs/tree/tree-tmpl.js
+754 silly gunzTarPerm modified mode [ 'dist/cjs/tree/tree-tmpl.js', 438, 420 ]
+755 silly gunzTarPerm extractEntry dist/cjs/tree/tree.js
+756 silly gunzTarPerm modified mode [ 'dist/cjs/tree/tree.js', 438, 420 ]
+757 silly gunzTarPerm extractEntry dist/cjs/wysiwyg/action-group.js
+758 silly gunzTarPerm modified mode [ 'dist/cjs/wysiwyg/action-group.js', 438, 420 ]
+759 silly gunzTarPerm extractEntry dist/cjs/wysiwyg/action.js
+760 silly gunzTarPerm modified mode [ 'dist/cjs/wysiwyg/action.js', 438, 420 ]
+761 silly gunzTarPerm extractEntry dist/cjs/wysiwyg/actiontmpl.js
+762 silly gunzTarPerm modified mode [ 'dist/cjs/wysiwyg/actiontmpl.js', 438, 420 ]
+763 silly gunzTarPerm extractEntry dist/cjs/wysiwyg/editor.js
+764 silly gunzTarPerm modified mode [ 'dist/cjs/wysiwyg/editor.js', 438, 420 ]
+765 silly gunzTarPerm extractEntry dist/cjs/wysiwyg/toolbar.js
+766 silly gunzTarPerm modified mode [ 'dist/cjs/wysiwyg/toolbar.js', 438, 420 ]
+767 silly gunzTarPerm extractEntry dist/cjs/wysiwyg/wysiwyg.js
+768 silly gunzTarPerm modified mode [ 'dist/cjs/wysiwyg/wysiwyg.js', 438, 420 ]
+769 silly gunzTarPerm extractEntry dist/globals/main.js
+770 silly gunzTarPerm modified mode [ 'dist/globals/main.js', 438, 420 ]
+771 silly gunzTarPerm extractEntry dist/named-amd/main.js
+772 silly gunzTarPerm modified mode [ 'dist/named-amd/main.js', 438, 420 ]
+773 silly gunzTarPerm extractEntry lib/accordion/accordion-item-tmpl.hbs
+774 silly gunzTarPerm modified mode [ 'lib/accordion/accordion-item-tmpl.hbs', 438, 420 ]
+775 silly gunzTarPerm extractEntry lib/accordion/accordion-item.coffee
+776 silly gunzTarPerm modified mode [ 'lib/accordion/accordion-item.coffee', 438, 420 ]
+777 silly gunzTarPerm extractEntry lib/accordion/accordion.coffee
+778 silly gunzTarPerm modified mode [ 'lib/accordion/accordion.coffee', 438, 420 ]
+779 silly gunzTarPerm extractEntry lib/button/button-tmpl.hbs
+780 silly gunzTarPerm modified mode [ 'lib/button/button-tmpl.hbs', 438, 420 ]
+781 silly gunzTarPerm extractEntry lib/button/button.coffee
+782 silly gunzTarPerm modified mode [ 'lib/button/button.coffee', 438, 420 ]
+783 silly gunzTarPerm extractEntry lib/list/as-item.coffee
+784 silly gunzTarPerm modified mode [ 'lib/list/as-item.coffee', 438, 420 ]
+785 silly gunzTarPerm extractEntry lib/list/list-item.coffee
+786 silly gunzTarPerm modified mode [ 'lib/list/list-item.coffee', 438, 420 ]
+787 silly gunzTarPerm extractEntry lib/list/list.coffee
+788 silly gunzTarPerm modified mode [ 'lib/list/list.coffee', 438, 420 ]
+789 silly gunzTarPerm extractEntry lib/main.coffee
+790 silly gunzTarPerm modified mode [ 'lib/main.coffee', 438, 420 ]
+791 silly gunzTarPerm extractEntry lib/modal/modal-footer.coffee
+792 silly gunzTarPerm modified mode [ 'lib/modal/modal-footer.coffee', 438, 420 ]
+793 silly gunzTarPerm extractEntry lib/modal/modal-body.coffee
+794 silly gunzTarPerm modified mode [ 'lib/modal/modal-body.coffee', 438, 420 ]
+795 silly gunzTarPerm extractEntry lib/modal/modal-confirm.coffee
+796 silly gunzTarPerm modified mode [ 'lib/modal/modal-confirm.coffee', 438, 420 ]
+797 silly gunzTarPerm extractEntry lib/modal/modal-css.hbs
+798 silly gunzTarPerm modified mode [ 'lib/modal/modal-css.hbs', 438, 420 ]
+799 silly gunzTarPerm extractEntry lib/modal/modal-emform.coffee
+800 silly gunzTarPerm modified mode [ 'lib/modal/modal-emform.coffee', 438, 420 ]
+801 silly gunzTarPerm extractEntry lib/modal/modal-confirm-tmpl.hbs
+802 silly gunzTarPerm modified mode [ 'lib/modal/modal-confirm-tmpl.hbs', 438, 420 ]
+803 silly gunzTarPerm extractEntry lib/modal/modal-form.coffee
+804 silly gunzTarPerm modified mode [ 'lib/modal/modal-form.coffee', 438, 420 ]
+805 silly gunzTarPerm extractEntry lib/modal/modal-title.coffee
+806 silly gunzTarPerm modified mode [ 'lib/modal/modal-title.coffee', 438, 420 ]
+807 silly gunzTarPerm extractEntry lib/modal/modal-tmpl.hbs
+808 silly gunzTarPerm modified mode [ 'lib/modal/modal-tmpl.hbs', 438, 420 ]
+809 silly gunzTarPerm extractEntry lib/modal/modal-toggler.coffee
+810 silly gunzTarPerm modified mode [ 'lib/modal/modal-toggler.coffee', 438, 420 ]
+811 silly gunzTarPerm extractEntry lib/modal/modal.coffee
+812 silly gunzTarPerm modified mode [ 'lib/modal/modal.coffee', 438, 420 ]
+813 silly gunzTarPerm extractEntry lib/tabs/tab-list.coffee
+814 silly gunzTarPerm modified mode [ 'lib/tabs/tab-list.coffee', 438, 420 ]
+815 silly gunzTarPerm extractEntry lib/tabs/tab-panel.coffee
+816 silly gunzTarPerm modified mode [ 'lib/tabs/tab-panel.coffee', 438, 420 ]
+817 silly gunzTarPerm extractEntry lib/tabs/tab.coffee
+818 silly gunzTarPerm modified mode [ 'lib/tabs/tab.coffee', 438, 420 ]
+819 silly gunzTarPerm extractEntry lib/tabs/tabs-css.hbs
+820 silly gunzTarPerm modified mode [ 'lib/tabs/tabs-css.hbs', 438, 420 ]
+821 silly gunzTarPerm extractEntry lib/tabs/tabs.coffee
+822 silly gunzTarPerm modified mode [ 'lib/tabs/tabs.coffee', 438, 420 ]
+823 silly gunzTarPerm extractEntry lib/tree/node.coffee
+824 silly gunzTarPerm modified mode [ 'lib/tree/node.coffee', 438, 420 ]
+825 silly gunzTarPerm extractEntry lib/tree/tree-branch-tmpl.hbs
+826 silly gunzTarPerm modified mode [ 'lib/tree/tree-branch-tmpl.hbs', 438, 420 ]
+827 silly gunzTarPerm extractEntry lib/tree/tree-branch.coffee
+828 silly gunzTarPerm modified mode [ 'lib/tree/tree-branch.coffee', 438, 420 ]
+829 silly gunzTarPerm extractEntry lib/tree/tree-css.hbs
+830 silly gunzTarPerm modified mode [ 'lib/tree/tree-css.hbs', 438, 420 ]
+831 silly gunzTarPerm extractEntry lib/tree/tree-node-icon-action.coffee
+832 silly gunzTarPerm modified mode [ 'lib/tree/tree-node-icon-action.coffee', 438, 420 ]
+833 silly gunzTarPerm extractEntry lib/tree/tree-node-tmpl.hbs
+834 silly gunzTarPerm modified mode [ 'lib/tree/tree-node-tmpl.hbs', 438, 420 ]
+835 silly gunzTarPerm extractEntry lib/tree/tree-node.coffee
+836 silly gunzTarPerm modified mode [ 'lib/tree/tree-node.coffee', 438, 420 ]
+837 silly gunzTarPerm extractEntry lib/tree/tree-tmpl.hbs
+838 silly gunzTarPerm modified mode [ 'lib/tree/tree-tmpl.hbs', 438, 420 ]
+839 silly gunzTarPerm extractEntry lib/tree/tree.coffee
+840 silly gunzTarPerm modified mode [ 'lib/tree/tree.coffee', 438, 420 ]
+841 silly gunzTarPerm extractEntry lib/wysiwyg/action-format-tmpl.hbs
+842 silly gunzTarPerm modified mode [ 'lib/wysiwyg/action-format-tmpl.hbs', 438, 420 ]
+843 silly gunzTarPerm extractEntry lib/wysiwyg/action-format.coffee
+844 silly gunzTarPerm modified mode [ 'lib/wysiwyg/action-format.coffee', 438, 420 ]
+845 silly gunzTarPerm extractEntry lib/wysiwyg/action-group.coffee
+846 silly gunzTarPerm modified mode [ 'lib/wysiwyg/action-group.coffee', 438, 420 ]
+847 silly gunzTarPerm extractEntry lib/wysiwyg/action-link-tmpl.hbs
+848 silly gunzTarPerm modified mode [ 'lib/wysiwyg/action-link-tmpl.hbs', 438, 420 ]
+849 silly gunzTarPerm extractEntry lib/wysiwyg/action-link.coffee
+850 silly gunzTarPerm modified mode [ 'lib/wysiwyg/action-link.coffee', 438, 420 ]
+851 silly gunzTarPerm extractEntry lib/wysiwyg/action.coffee
+852 silly gunzTarPerm modified mode [ 'lib/wysiwyg/action.coffee', 438, 420 ]
+853 silly gunzTarPerm extractEntry lib/wysiwyg/actiontmpl.hbs
+854 silly gunzTarPerm modified mode [ 'lib/wysiwyg/actiontmpl.hbs', 438, 420 ]
+855 silly gunzTarPerm extractEntry lib/wysiwyg/editor.coffee
+856 silly gunzTarPerm modified mode [ 'lib/wysiwyg/editor.coffee', 438, 420 ]
+857 silly gunzTarPerm extractEntry lib/wysiwyg/toolbar.coffee
+858 silly gunzTarPerm modified mode [ 'lib/wysiwyg/toolbar.coffee', 438, 420 ]
+859 silly gunzTarPerm extractEntry lib/wysiwyg/wysiwyg.coffee
+860 silly gunzTarPerm modified mode [ 'lib/wysiwyg/wysiwyg.coffee', 438, 420 ]
+861 silly gunzTarPerm extractEntry bower.json
+862 silly gunzTarPerm modified mode [ 'bower.json', 438, 420 ]
+863 silly gunzTarPerm extractEntry scripts/build
+864 silly gunzTarPerm modified mode [ 'scripts/build', 438, 420 ]
+865 silly gunzTarPerm extractEntry scripts/test
+866 silly gunzTarPerm modified mode [ 'scripts/test', 438, 420 ]
+867 silly gunzTarPerm extractEntry test/main.spec.coffee
+868 silly gunzTarPerm modified mode [ 'test/main.spec.coffee', 438, 420 ]
+869 silly gunzTarPerm extractEntry test/support/setup.js
+870 silly gunzTarPerm modified mode [ 'test/support/setup.js', 438, 420 ]
+871 silly gunzTarPerm extractEntry test/tabs.spec.coffee
+872 silly gunzTarPerm modified mode [ 'test/tabs.spec.coffee', 438, 420 ]
+873 silly gunzTarPerm extractEntry testem.json
+874 silly gunzTarPerm modified mode [ 'testem.json', 438, 420 ]
+875 silly gunzTarPerm extractEntry to_certi.sh
+876 silly gunzTarPerm modified mode [ 'to_certi.sh', 438, 420 ]
+877 silly gunzTarPerm extractEntry yuidoc.json
+878 silly gunzTarPerm modified mode [ 'yuidoc.json', 438, 420 ]
+879 silly lockFile f2934dd9-e-ember-components-0-2-0-package tar://C:\Users\bshuey\AppData\Roaming\npm-cache\ember-components\0.2.0\package
+880 silly lockFile f2934dd9-e-ember-components-0-2-0-package tar://C:\Users\bshuey\AppData\Roaming\npm-cache\ember-components\0.2.0\package
+881 silly lockFile 72d9fe4c-ber-components-0-2-0-package-tgz tar://C:\Users\bshuey\AppData\Roaming\npm-cache\ember-components\0.2.0\package.tgz
+882 silly lockFile 72d9fe4c-ber-components-0-2-0-package-tgz tar://C:\Users\bshuey\AppData\Roaming\npm-cache\ember-components\0.2.0\package.tgz
+883 verbose chmod C:\Users\bshuey\AppData\Roaming\npm-cache\ember-components\0.2.0\package.tgz 644
+884 silly chown skipping for windows C:\Users\bshuey\AppData\Roaming\npm-cache\ember-components\0.2.0\package.tgz
+885 silly lockFile 424ef653-nents-ember-components-0-2-0-tgz https://registry.npmjs.org/ember-components/-/ember-components-0.2.0.tgz
+886 silly lockFile 424ef653-nents-ember-components-0-2-0-tgz https://registry.npmjs.org/ember-components/-/ember-components-0.2.0.tgz
+887 silly lockFile c677a136-ember-components-0-2-0 ember-components@0.2.0
+888 silly lockFile c677a136-ember-components-0-2-0 ember-components@0.2.0
+889 silly lockFile dbffda61-ember-components-0-2-0 ember-components@~0.2.0
+890 silly lockFile dbffda61-ember-components-0-2-0 ember-components@~0.2.0
+891 silly resolved [ { name: 'ember-components',
+891 silly resolved     description: 'A suite of components for Ember.js',
+891 silly resolved     version: '0.2.0',
+891 silly resolved     homepage: 'http://ember-addons.github.io/ember-components',
+891 silly resolved     license: 'ASF 2.0',
+891 silly resolved     authors: [ 'Asaf Shakarchi <asaf000@gmail.com>' ],
+891 silly resolved     repository:
+891 silly resolved      { type: 'git',
+891 silly resolved        url: 'https://github.com/ember-addons/ember-components' },
+891 silly resolved     scripts:
+891 silly resolved      { postinstall: 'bower install',
+891 silly resolved        test: 'script/test',
+891 silly resolved        start: 'broccoli serve --port 4202 --live-reload-port 35700' },
+891 silly resolved     devDependencies:
+891 silly resolved      { bower: '^1.3.5',
+891 silly resolved        broccoli: '^0.12.3',
+891 silly resolved        'broccoli-bower': '^0.2.0',
+891 silly resolved        'broccoli-coffee': '^0.1.0',
+891 silly resolved        'broccoli-dist-es6-module': '^0.2.0',
+891 silly resolved        'broccoli-merge-trees': '^0.1.3',
+891 silly resolved        'broccoli-static-compiler': '^0.1.4',
+891 silly resolved        'broccoli-template': '^0.1.0',
+891 silly resolved        testem: '^0.6.16' },
+891 silly resolved     readme: '# Ember Components\n\n##### Ember Components is a set of rich web components written for Ember.js that let you create an astonishing UI for ambitious web applications.\n\n\n# Relation to Bootstrap for Ember\n\nThis project aims to be the successor of our Bootstrap for Ember project as all components on this suite are not bound to any specific CSS framework.\n\n# Installation & Docs\n\nWith ember-cli:\n`npm install --save ember-cli-components`\n\nFor more info please read the [Getting Started Page](http://indexiatech.github.io/ember-components/#/getstarted)\n\n# License\n\nSee [License](https://github.com/indexiatech/ember-components/blob/master/LICENSE) file \n',
+891 silly resolved     readmeFilename: 'README.md',
+891 silly resolved     bugs: { url: 'https://github.com/ember-addons/ember-components/issues' },
+891 silly resolved     _id: 'ember-components@0.2.0',
+891 silly resolved     dist: { shasum: 'f614b0a92efefb4e1690670222c61958de8da3d9' },
+891 silly resolved     _from: 'ember-components@~0.2.0',
+891 silly resolved     _resolved: 'https://registry.npmjs.org/ember-components/-/ember-components-0.2.0.tgz' } ]
+892 info install ember-components@0.2.0 into D:\Swatter\swatter\node_modules\ember-cli-components
+893 info installOne ember-components@0.2.0
+894 info D:\Swatter\swatter\node_modules\ember-cli-components\node_modules\ember-components unbuild
+895 verbose tar unpack C:\Users\bshuey\AppData\Roaming\npm-cache\ember-components\0.2.0\package.tgz
+896 silly lockFile 3b0c91a3-ts-node-modules-ember-components tar://D:\Swatter\swatter\node_modules\ember-cli-components\node_modules\ember-components
+897 verbose lock tar://D:\Swatter\swatter\node_modules\ember-cli-components\node_modules\ember-components C:\Users\bshuey\AppData\Roaming\npm-cache\3b0c91a3-ts-node-modules-ember-components.lock
+898 silly lockFile 72d9fe4c-ber-components-0-2-0-package-tgz tar://C:\Users\bshuey\AppData\Roaming\npm-cache\ember-components\0.2.0\package.tgz
+899 verbose lock tar://C:\Users\bshuey\AppData\Roaming\npm-cache\ember-components\0.2.0\package.tgz C:\Users\bshuey\AppData\Roaming\npm-cache\72d9fe4c-ber-components-0-2-0-package-tgz.lock
+900 silly gunzTarPerm modes [ '755', '644' ]
+901 silly gunzTarPerm extractEntry package.json
+902 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+903 silly gunzTarPerm extractEntry .npmignore
+904 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+905 silly gunzTarPerm extractEntry README.md
+906 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+907 silly gunzTarPerm extractEntry LICENSE
+908 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+909 silly gunzTarPerm extractEntry Brocfile.js
+910 silly gunzTarPerm modified mode [ 'Brocfile.js', 438, 420 ]
+911 silly gunzTarPerm extractEntry karma.conf.js
+912 silly gunzTarPerm modified mode [ 'karma.conf.js', 438, 420 ]
+913 silly gunzTarPerm extractEntry examples/package.json
+914 silly gunzTarPerm modified mode [ 'examples/package.json', 438, 420 ]
+915 silly gunzTarPerm extractEntry examples/.npmignore
+916 silly gunzTarPerm modified mode [ 'examples/.npmignore', 438, 420 ]
+917 silly gunzTarPerm extractEntry examples/README.md
+918 silly gunzTarPerm modified mode [ 'examples/README.md', 438, 420 ]
+919 silly gunzTarPerm extractEntry examples/Brocfile.js
+920 silly gunzTarPerm modified mode [ 'examples/Brocfile.js', 438, 420 ]
+921 silly gunzTarPerm extractEntry examples/bower.json
+922 silly gunzTarPerm modified mode [ 'examples/bower.json', 438, 420 ]
+923 silly gunzTarPerm extractEntry examples/app/app.js
+924 silly gunzTarPerm modified mode [ 'examples/app/app.js', 438, 420 ]
+925 silly gunzTarPerm extractEntry examples/app/initializers/hightlightjs.coffee
+926 silly gunzTarPerm modified mode [ 'examples/app/initializers/hightlightjs.coffee', 438, 420 ]
+927 silly gunzTarPerm extractEntry examples/app/initializers/scrolltotop.coffee
+928 silly gunzTarPerm modified mode [ 'examples/app/initializers/scrolltotop.coffee', 438, 420 ]
+929 silly gunzTarPerm extractEntry examples/app/components/.gitkeep
+930 silly gunzTarPerm modified mode [ 'examples/app/components/.gitkeep', 438, 420 ]
+931 silly gunzTarPerm extractEntry examples/app/controllers/.gitkeep
+932 silly gunzTarPerm modified mode [ 'examples/app/controllers/.gitkeep', 438, 420 ]
+933 silly gunzTarPerm extractEntry examples/app/controllers/component/accordion/query-params.coffee
+934 silly gunzTarPerm modified mode [ 'examples/app/controllers/component/accordion/query-params.coffee',
+934 silly gunzTarPerm   438,
+934 silly gunzTarPerm   420 ]
+935 silly gunzTarPerm extractEntry examples/app/controllers/component/button/index.coffee
+936 silly gunzTarPerm modified mode [ 'examples/app/controllers/component/button/index.coffee',
+936 silly gunzTarPerm   438,
+936 silly gunzTarPerm   420 ]
+937 silly gunzTarPerm extractEntry examples/app/controllers/component/list/models.coffee
+938 silly gunzTarPerm modified mode [ 'examples/app/controllers/component/list/models.coffee',
+938 silly gunzTarPerm   438,
+938 silly gunzTarPerm   420 ]
+939 silly gunzTarPerm extractEntry examples/app/controllers/component/list/state.coffee
+940 silly gunzTarPerm modified mode [ 'examples/app/controllers/component/list/state.coffee',
+940 silly gunzTarPerm   438,
+940 silly gunzTarPerm   420 ]
+941 silly gunzTarPerm extractEntry examples/app/controllers/component/modal/confirm.coffee
+942 silly gunzTarPerm modified mode [ 'examples/app/controllers/component/modal/confirm.coffee',
+942 silly gunzTarPerm   438,
+942 silly gunzTarPerm   420 ]
+943 silly gunzTarPerm extractEntry examples/app/controllers/component/modal/emforms.coffee
+944 silly gunzTarPerm modified mode [ 'examples/app/controllers/component/modal/emforms.coffee',
+944 silly gunzTarPerm   438,
+944 silly gunzTarPerm   420 ]
+945 silly gunzTarPerm extractEntry examples/app/controllers/component/modal/forms.coffee
+946 silly gunzTarPerm modified mode [ 'examples/app/controllers/component/modal/forms.coffee',
+946 silly gunzTarPerm   438,
+946 silly gunzTarPerm   420 ]
+947 silly gunzTarPerm extractEntry examples/app/controllers/component/modal/openifcloseif.coffee
+948 silly gunzTarPerm modified mode [ 'examples/app/controllers/component/modal/openifcloseif.coffee',
+948 silly gunzTarPerm   438,
+948 silly gunzTarPerm   420 ]
+949 silly gunzTarPerm extractEntry examples/app/controllers/component/modal/reuse.coffee
+950 silly gunzTarPerm modified mode [ 'examples/app/controllers/component/modal/reuse.coffee',
+950 silly gunzTarPerm   438,
+950 silly gunzTarPerm   420 ]
+951 silly gunzTarPerm extractEntry examples/app/controllers/component/tabs/c1.coffee
+952 silly gunzTarPerm modified mode [ 'examples/app/controllers/component/tabs/c1.coffee', 438, 420 ]
+953 silly gunzTarPerm extractEntry examples/app/controllers/component/tabs/c2.coffee
+954 silly gunzTarPerm modified mode [ 'examples/app/controllers/component/tabs/c2.coffee', 438, 420 ]
+955 silly gunzTarPerm extractEntry examples/app/controllers/component/tabs/query-params.coffee
+956 silly gunzTarPerm modified mode [ 'examples/app/controllers/component/tabs/query-params.coffee',
+956 silly gunzTarPerm   438,
+956 silly gunzTarPerm   420 ]
+957 silly gunzTarPerm extractEntry examples/app/controllers/component/tree/async.coffee
+958 silly gunzTarPerm modified mode [ 'examples/app/controllers/component/tree/async.coffee',
+958 silly gunzTarPerm   438,
+958 silly gunzTarPerm   420 ]
+959 silly gunzTarPerm extractEntry examples/app/controllers/component/tree/expand.coffee
+960 silly gunzTarPerm modified mode [ 'examples/app/controllers/component/tree/expand.coffee',
+960 silly gunzTarPerm   438,
+960 silly gunzTarPerm   420 ]
+961 silly gunzTarPerm extractEntry examples/app/controllers/component/tree/hoveredactions.coffee
+962 silly gunzTarPerm modified mode [ 'examples/app/controllers/component/tree/hoveredactions.coffee',
+962 silly gunzTarPerm   438,
+962 silly gunzTarPerm   420 ]
+963 silly gunzTarPerm extractEntry examples/app/controllers/component/tree/multiselection.coffee
+964 silly gunzTarPerm modified mode [ 'examples/app/controllers/component/tree/multiselection.coffee',
+964 silly gunzTarPerm   438,
+964 silly gunzTarPerm   420 ]
+965 silly gunzTarPerm extractEntry examples/app/controllers/component/tree/simple.coffee
+966 silly gunzTarPerm modified mode [ 'examples/app/controllers/component/tree/simple.coffee',
+966 silly gunzTarPerm   438,
+966 silly gunzTarPerm   420 ]
+967 silly gunzTarPerm extractEntry examples/app/controllers/sidebar.coffee
+968 silly gunzTarPerm modified mode [ 'examples/app/controllers/sidebar.coffee', 438, 420 ]
+969 silly gunzTarPerm extractEntry examples/app/helpers/.gitkeep
+970 silly gunzTarPerm modified mode [ 'examples/app/helpers/.gitkeep', 438, 420 ]
+971 silly gunzTarPerm extractEntry examples/app/index.html
+972 silly gunzTarPerm modified mode [ 'examples/app/index.html', 438, 420 ]
+973 silly gunzTarPerm extractEntry examples/app/adapters/application.coffee
+974 silly gunzTarPerm modified mode [ 'examples/app/adapters/application.coffee', 438, 420 ]
+975 silly gunzTarPerm extractEntry examples/app/models/.gitkeep
+976 silly gunzTarPerm modified mode [ 'examples/app/models/.gitkeep', 438, 420 ]
+977 silly gunzTarPerm extractEntry examples/app/models/tag.coffee
+978 silly gunzTarPerm modified mode [ 'examples/app/models/tag.coffee', 438, 420 ]
+979 silly gunzTarPerm extractEntry examples/app/models/user.coffee
+980 silly gunzTarPerm modified mode [ 'examples/app/models/user.coffee', 438, 420 ]
+981 silly gunzTarPerm extractEntry examples/app/router.coffee
+982 silly gunzTarPerm modified mode [ 'examples/app/router.coffee', 438, 420 ]
+983 silly gunzTarPerm extractEntry examples/app/routes/.gitkeep
+984 silly gunzTarPerm modified mode [ 'examples/app/routes/.gitkeep', 438, 420 ]
+985 silly gunzTarPerm extractEntry examples/app/routes/component/list/models.coffee
+986 silly gunzTarPerm modified mode [ 'examples/app/routes/component/list/models.coffee', 438, 420 ]
+987 silly gunzTarPerm extractEntry examples/app/routes/component/modal/emforms.coffee
+988 silly gunzTarPerm modified mode [ 'examples/app/routes/component/modal/emforms.coffee',
+988 silly gunzTarPerm   438,
+988 silly gunzTarPerm   420 ]
+989 silly gunzTarPerm extractEntry examples/app/routes/component/modal/reuse.coffee
+990 silly gunzTarPerm modified mode [ 'examples/app/routes/component/modal/reuse.coffee', 438, 420 ]
+991 silly gunzTarPerm extractEntry examples/app/routes/component/tree/async.coffee
+992 silly gunzTarPerm modified mode [ 'examples/app/routes/component/tree/async.coffee', 438, 420 ]
+993 silly gunzTarPerm extractEntry examples/app/routes/component/tree/emberdata.coffee
+994 silly gunzTarPerm modified mode [ 'examples/app/routes/component/tree/emberdata.coffee',
+994 silly gunzTarPerm   438,
+994 silly gunzTarPerm   420 ]
+995 silly gunzTarPerm extractEntry examples/app/routes/component/tree/expand.coffee
+996 silly gunzTarPerm modified mode [ 'examples/app/routes/component/tree/expand.coffee', 438, 420 ]
+997 silly gunzTarPerm extractEntry examples/app/routes/component/tree/multiselection.coffee
+998 silly gunzTarPerm modified mode [ 'examples/app/routes/component/tree/multiselection.coffee',
+998 silly gunzTarPerm   438,
+998 silly gunzTarPerm   420 ]
+999 silly gunzTarPerm extractEntry examples/app/routes/index.coffee
+1000 silly gunzTarPerm modified mode [ 'examples/app/routes/index.coffee', 438, 420 ]
+1001 silly gunzTarPerm extractEntry examples/app/styles/.gitkeep
+1002 silly gunzTarPerm modified mode [ 'examples/app/styles/.gitkeep', 438, 420 ]
+1003 silly gunzTarPerm extractEntry examples/app/styles/app.css
+1004 silly gunzTarPerm modified mode [ 'examples/app/styles/app.css', 438, 420 ]
+1005 silly gunzTarPerm extractEntry examples/app/templates/.gitkeep
+1006 silly gunzTarPerm modified mode [ 'examples/app/templates/.gitkeep', 438, 420 ]
+1007 silly gunzTarPerm extractEntry examples/app/templates/application.hbs
+1008 silly gunzTarPerm modified mode [ 'examples/app/templates/application.hbs', 438, 420 ]
+1009 silly gunzTarPerm extractEntry examples/app/templates/component/accordion/controller_per_item.hbs
+1010 silly gunzTarPerm modified mode [ 'examples/app/templates/component/accordion/controller_per_item.hbs',
+1010 silly gunzTarPerm   438,
+1010 silly gunzTarPerm   420 ]
+1011 silly gunzTarPerm extractEntry examples/app/templates/component/accordion/query_params.hbs
+1012 silly gunzTarPerm modified mode [ 'examples/app/templates/component/accordion/query_params.hbs',
+1012 silly gunzTarPerm   438,
+1012 silly gunzTarPerm   420 ]
+1013 silly gunzTarPerm extractEntry examples/app/templates/component/accordion/simple.hbs
+1014 silly gunzTarPerm modified mode [ 'examples/app/templates/component/accordion/simple.hbs',
+1014 silly gunzTarPerm   438,
+1014 silly gunzTarPerm   420 ]
+1015 silly gunzTarPerm extractEntry examples/app/templates/component/button/index.hbs
+1016 silly gunzTarPerm modified mode [ 'examples/app/templates/component/button/index.hbs', 438, 420 ]
+1017 silly gunzTarPerm extractEntry examples/app/templates/component/forms/index.hbs
+1018 silly gunzTarPerm modified mode [ 'examples/app/templates/component/forms/index.hbs', 438, 420 ]
+1019 silly gunzTarPerm extractEntry examples/app/templates/component/index.hbs
+1020 silly gunzTarPerm modified mode [ 'examples/app/templates/component/index.hbs', 438, 420 ]
+1021 silly gunzTarPerm extractEntry examples/app/templates/component/list/models.hbs
+1022 silly gunzTarPerm modified mode [ 'examples/app/templates/component/list/models.hbs', 438, 420 ]
+1023 silly gunzTarPerm extractEntry examples/app/templates/component/list/simple.hbs
+1024 silly gunzTarPerm modified mode [ 'examples/app/templates/component/list/simple.hbs', 438, 420 ]
+1025 silly gunzTarPerm extractEntry examples/app/templates/component/list/state.hbs
+1026 silly gunzTarPerm modified mode [ 'examples/app/templates/component/list/state.hbs', 438, 420 ]
+1027 silly gunzTarPerm extractEntry examples/app/templates/component/modal/confirm.hbs
+1028 silly gunzTarPerm modified mode [ 'examples/app/templates/component/modal/confirm.hbs',
+1028 silly gunzTarPerm   438,
+1028 silly gunzTarPerm   420 ]
+1029 silly gunzTarPerm extractEntry examples/app/templates/component/modal/emforms.hbs
+1030 silly gunzTarPerm modified mode [ 'examples/app/templates/component/modal/emforms.hbs',
+1030 silly gunzTarPerm   438,
+1030 silly gunzTarPerm   420 ]
+1031 silly gunzTarPerm extractEntry examples/app/templates/component/modal/forms.hbs
+1032 silly gunzTarPerm modified mode [ 'examples/app/templates/component/modal/forms.hbs', 438, 420 ]
+1033 silly gunzTarPerm extractEntry examples/app/templates/component/modal/openifcloseif.hbs
+1034 silly gunzTarPerm modified mode [ 'examples/app/templates/component/modal/openifcloseif.hbs',
+1034 silly gunzTarPerm   438,
+1034 silly gunzTarPerm   420 ]
+1035 silly gunzTarPerm extractEntry examples/app/templates/component/modal/reuse.hbs
+1036 silly gunzTarPerm modified mode [ 'examples/app/templates/component/modal/reuse.hbs', 438, 420 ]
+1037 silly gunzTarPerm extractEntry examples/app/templates/component/modal/simple.hbs
+1038 silly gunzTarPerm modified mode [ 'examples/app/templates/component/modal/simple.hbs', 438, 420 ]
+1039 silly gunzTarPerm extractEntry examples/app/templates/component/tabs/c1.hbs
+1040 silly gunzTarPerm modified mode [ 'examples/app/templates/component/tabs/c1.hbs', 438, 420 ]
+1041 silly gunzTarPerm extractEntry examples/app/templates/component/tabs/c2.hbs
+1042 silly gunzTarPerm modified mode [ 'examples/app/templates/component/tabs/c2.hbs', 438, 420 ]
+1043 silly gunzTarPerm extractEntry examples/app/templates/component/tabs/c3.hbs
+1044 silly gunzTarPerm modified mode [ 'examples/app/templates/component/tabs/c3.hbs', 438, 420 ]
+1045 silly gunzTarPerm extractEntry examples/app/templates/component/tabs/controller_per_tab.hbs
+1046 silly gunzTarPerm modified mode [ 'examples/app/templates/component/tabs/controller_per_tab.hbs',
+1046 silly gunzTarPerm   438,
+1046 silly gunzTarPerm   420 ]
+1047 silly gunzTarPerm extractEntry examples/app/templates/component/tabs/query_params.hbs
+1048 silly gunzTarPerm modified mode [ 'examples/app/templates/component/tabs/query_params.hbs',
+1048 silly gunzTarPerm   438,
+1048 silly gunzTarPerm   420 ]
+1049 silly gunzTarPerm extractEntry examples/app/templates/component/tabs/simple.hbs
+1050 silly gunzTarPerm modified mode [ 'examples/app/templates/component/tabs/simple.hbs', 438, 420 ]
+1051 silly gunzTarPerm extractEntry examples/app/templates/component/tree/async.hbs
+1052 silly gunzTarPerm modified mode [ 'examples/app/templates/component/tree/async.hbs', 438, 420 ]
+1053 silly gunzTarPerm extractEntry examples/app/templates/component/tree/emberdata.hbs
+1054 silly gunzTarPerm modified mode [ 'examples/app/templates/component/tree/emberdata.hbs',
+1054 silly gunzTarPerm   438,
+1054 silly gunzTarPerm   420 ]
+1055 silly gunzTarPerm extractEntry examples/app/templates/component/tree/expand.hbs
+1056 silly gunzTarPerm modified mode [ 'examples/app/templates/component/tree/expand.hbs', 438, 420 ]
+1057 silly gunzTarPerm extractEntry examples/app/templates/component/tree/hoveredactions.hbs
+1058 silly gunzTarPerm modified mode [ 'examples/app/templates/component/tree/hoveredactions.hbs',
+1058 silly gunzTarPerm   438,
+1058 silly gunzTarPerm   420 ]
+1059 silly gunzTarPerm extractEntry examples/app/templates/component/tree/multiselection.hbs
+1060 silly gunzTarPerm modified mode [ 'examples/app/templates/component/tree/multiselection.hbs',
+1060 silly gunzTarPerm   438,
+1060 silly gunzTarPerm   420 ]
+1061 silly gunzTarPerm extractEntry examples/app/templates/component/tree/simple.hbs
+1062 silly gunzTarPerm modified mode [ 'examples/app/templates/component/tree/simple.hbs', 438, 420 ]
+1063 silly gunzTarPerm extractEntry examples/app/templates/component/wysiwyg/simple.hbs
+1064 silly gunzTarPerm modified mode [ 'examples/app/templates/component/wysiwyg/simple.hbs',
+1064 silly gunzTarPerm   438,
+1064 silly gunzTarPerm   420 ]
+1065 silly gunzTarPerm extractEntry examples/app/templates/components/.gitkeep
+1066 silly gunzTarPerm modified mode [ 'examples/app/templates/components/.gitkeep', 438, 420 ]
+1067 silly gunzTarPerm extractEntry examples/app/templates/getstarted.hbs
+1068 silly gunzTarPerm modified mode [ 'examples/app/templates/getstarted.hbs', 438, 420 ]
+1069 silly gunzTarPerm extractEntry examples/app/templates/index.hbs
+1070 silly gunzTarPerm modified mode [ 'examples/app/templates/index.hbs', 438, 420 ]
+1071 silly gunzTarPerm extractEntry examples/app/templates/navbar.hbs
+1072 silly gunzTarPerm modified mode [ 'examples/app/templates/navbar.hbs', 438, 420 ]
+1073 silly gunzTarPerm extractEntry examples/app/templates/overview.hbs
+1074 silly gunzTarPerm modified mode [ 'examples/app/templates/overview.hbs', 438, 420 ]
+1075 silly gunzTarPerm extractEntry examples/app/templates/sidebar.hbs
+1076 silly gunzTarPerm modified mode [ 'examples/app/templates/sidebar.hbs', 438, 420 ]
+1077 silly gunzTarPerm extractEntry examples/app/views/.gitkeep
+1078 silly gunzTarPerm modified mode [ 'examples/app/views/.gitkeep', 438, 420 ]
+1079 silly gunzTarPerm extractEntry examples/.jshintrc
+1080 silly gunzTarPerm modified mode [ 'examples/.jshintrc', 438, 420 ]
+1081 silly gunzTarPerm extractEntry examples/config/environment.js
+1082 silly gunzTarPerm modified mode [ 'examples/config/environment.js', 438, 420 ]
+1083 silly gunzTarPerm extractEntry examples/copy.sh
+1084 silly gunzTarPerm modified mode [ 'examples/copy.sh', 438, 420 ]
+1085 silly gunzTarPerm extractEntry examples/.bowerrc
+1086 silly gunzTarPerm modified mode [ 'examples/.bowerrc', 438, 420 ]
+1087 silly gunzTarPerm extractEntry examples/public/.gitkeep
+1088 silly gunzTarPerm modified mode [ 'examples/public/.gitkeep', 438, 420 ]
+1089 silly gunzTarPerm extractEntry examples/public/assets/img/ember_logo.png
+1090 silly gunzTarPerm modified mode [ 'examples/public/assets/img/ember_logo.png', 438, 420 ]
+1091 silly gunzTarPerm extractEntry examples/tests/index.html
+1092 silly gunzTarPerm modified mode [ 'examples/tests/index.html', 438, 420 ]
+1093 silly gunzTarPerm extractEntry dist/amd/main.js
+1094 silly gunzTarPerm modified mode [ 'dist/amd/main.js', 438, 420 ]
+1095 silly gunzTarPerm extractEntry dist/amd/accordion/accordion-item-tmpl.js
+1096 silly gunzTarPerm modified mode [ 'dist/amd/accordion/accordion-item-tmpl.js', 438, 420 ]
+1097 silly gunzTarPerm extractEntry dist/amd/accordion/accordion-item.js
+1098 silly gunzTarPerm modified mode [ 'dist/amd/accordion/accordion-item.js', 438, 420 ]
+1099 silly gunzTarPerm extractEntry dist/amd/accordion/accordion.js
+1100 silly gunzTarPerm modified mode [ 'dist/amd/accordion/accordion.js', 438, 420 ]
+1101 silly gunzTarPerm extractEntry dist/amd/button/button-tmpl.js
+1102 silly gunzTarPerm modified mode [ 'dist/amd/button/button-tmpl.js', 438, 420 ]
+1103 silly gunzTarPerm extractEntry dist/amd/button/button.js
+1104 silly gunzTarPerm modified mode [ 'dist/amd/button/button.js', 438, 420 ]
+1105 silly gunzTarPerm extractEntry dist/amd/list/as-item.js
+1106 silly gunzTarPerm modified mode [ 'dist/amd/list/as-item.js', 438, 420 ]
+1107 silly gunzTarPerm extractEntry dist/amd/list/list-item.js
+1108 silly gunzTarPerm modified mode [ 'dist/amd/list/list-item.js', 438, 420 ]
+1109 silly gunzTarPerm extractEntry dist/amd/list/list.js
+1110 silly gunzTarPerm modified mode [ 'dist/amd/list/list.js', 438, 420 ]
+1111 silly gunzTarPerm extractEntry dist/amd/modal/modal-body.js
+1112 silly gunzTarPerm modified mode [ 'dist/amd/modal/modal-body.js', 438, 420 ]
+1113 silly gunzTarPerm extractEntry dist/amd/modal/modal-confirm.js
+1114 silly gunzTarPerm modified mode [ 'dist/amd/modal/modal-confirm.js', 438, 420 ]
+1115 silly gunzTarPerm extractEntry dist/amd/modal/modal-css.js
+1116 silly gunzTarPerm modified mode [ 'dist/amd/modal/modal-css.js', 438, 420 ]
+1117 silly gunzTarPerm extractEntry dist/amd/modal/modal-emform.js
+1118 silly gunzTarPerm modified mode [ 'dist/amd/modal/modal-emform.js', 438, 420 ]
+1119 silly gunzTarPerm extractEntry dist/amd/modal/modal-confirm-tmpl.js
+1120 silly gunzTarPerm modified mode [ 'dist/amd/modal/modal-confirm-tmpl.js', 438, 420 ]
+1121 silly gunzTarPerm extractEntry dist/amd/modal/modal-form.js
+1122 silly gunzTarPerm modified mode [ 'dist/amd/modal/modal-form.js', 438, 420 ]
+1123 silly gunzTarPerm extractEntry dist/amd/modal/modal-title.js
+1124 silly gunzTarPerm modified mode [ 'dist/amd/modal/modal-title.js', 438, 420 ]
+1125 silly gunzTarPerm extractEntry dist/amd/modal/modal-tmpl.js
+1126 silly gunzTarPerm modified mode [ 'dist/amd/modal/modal-tmpl.js', 438, 420 ]
+1127 silly gunzTarPerm extractEntry dist/amd/modal/modal-toggler.js
+1128 silly gunzTarPerm modified mode [ 'dist/amd/modal/modal-toggler.js', 438, 420 ]
+1129 silly gunzTarPerm extractEntry dist/amd/modal/modal.js
+1130 silly gunzTarPerm modified mode [ 'dist/amd/modal/modal.js', 438, 420 ]
+1131 silly gunzTarPerm extractEntry dist/amd/modal/modal-footer.js
+1132 silly gunzTarPerm modified mode [ 'dist/amd/modal/modal-footer.js', 438, 420 ]
+1133 silly gunzTarPerm extractEntry dist/amd/tabs/tab-list.js
+1134 silly gunzTarPerm modified mode [ 'dist/amd/tabs/tab-list.js', 438, 420 ]
+1135 silly gunzTarPerm extractEntry dist/amd/tabs/tab-panel.js
+1136 silly gunzTarPerm modified mode [ 'dist/amd/tabs/tab-panel.js', 438, 420 ]
+1137 silly gunzTarPerm extractEntry dist/amd/tabs/tab.js
+1138 silly gunzTarPerm modified mode [ 'dist/amd/tabs/tab.js', 438, 420 ]
+1139 silly gunzTarPerm extractEntry dist/amd/tabs/tabs-css.js
+1140 silly gunzTarPerm modified mode [ 'dist/amd/tabs/tabs-css.js', 438, 420 ]
+1141 silly gunzTarPerm extractEntry dist/amd/tabs/tabs.js
+1142 silly gunzTarPerm modified mode [ 'dist/amd/tabs/tabs.js', 438, 420 ]
+1143 silly gunzTarPerm extractEntry dist/amd/tree/node.js
+1144 silly gunzTarPerm modified mode [ 'dist/amd/tree/node.js', 438, 420 ]
+1145 silly gunzTarPerm extractEntry dist/amd/tree/tree-branch-tmpl.js
+1146 silly gunzTarPerm modified mode [ 'dist/amd/tree/tree-branch-tmpl.js', 438, 420 ]
+1147 silly gunzTarPerm extractEntry dist/amd/tree/tree-branch.js
+1148 silly gunzTarPerm modified mode [ 'dist/amd/tree/tree-branch.js', 438, 420 ]
+1149 silly gunzTarPerm extractEntry dist/amd/tree/tree-css.js
+1150 silly gunzTarPerm modified mode [ 'dist/amd/tree/tree-css.js', 438, 420 ]
+1151 silly gunzTarPerm extractEntry dist/amd/tree/tree-node-icon-action.js
+1152 silly gunzTarPerm modified mode [ 'dist/amd/tree/tree-node-icon-action.js', 438, 420 ]
+1153 silly gunzTarPerm extractEntry dist/amd/tree/tree-node-tmpl.js
+1154 silly gunzTarPerm modified mode [ 'dist/amd/tree/tree-node-tmpl.js', 438, 420 ]
+1155 silly gunzTarPerm extractEntry dist/amd/tree/tree-node.js
+1156 silly gunzTarPerm modified mode [ 'dist/amd/tree/tree-node.js', 438, 420 ]
+1157 silly gunzTarPerm extractEntry dist/amd/tree/tree-tmpl.js
+1158 silly gunzTarPerm modified mode [ 'dist/amd/tree/tree-tmpl.js', 438, 420 ]
+1159 silly gunzTarPerm extractEntry dist/amd/tree/tree.js
+1160 silly gunzTarPerm modified mode [ 'dist/amd/tree/tree.js', 438, 420 ]
+1161 silly gunzTarPerm extractEntry dist/amd/wysiwyg/action-group.js
+1162 silly gunzTarPerm modified mode [ 'dist/amd/wysiwyg/action-group.js', 438, 420 ]
+1163 silly gunzTarPerm extractEntry dist/amd/wysiwyg/action.js
+1164 silly gunzTarPerm modified mode [ 'dist/amd/wysiwyg/action.js', 438, 420 ]
+1165 silly gunzTarPerm extractEntry dist/amd/wysiwyg/actiontmpl.js
+1166 silly gunzTarPerm modified mode [ 'dist/amd/wysiwyg/actiontmpl.js', 438, 420 ]
+1167 silly gunzTarPerm extractEntry dist/amd/wysiwyg/editor.js
+1168 silly gunzTarPerm modified mode [ 'dist/amd/wysiwyg/editor.js', 438, 420 ]
+1169 silly gunzTarPerm extractEntry dist/amd/wysiwyg/toolbar.js
+1170 silly gunzTarPerm modified mode [ 'dist/amd/wysiwyg/toolbar.js', 438, 420 ]
+1171 silly gunzTarPerm extractEntry dist/amd/wysiwyg/wysiwyg.js
+1172 silly gunzTarPerm modified mode [ 'dist/amd/wysiwyg/wysiwyg.js', 438, 420 ]
+1173 silly gunzTarPerm extractEntry dist/cjs/main.js
+1174 silly gunzTarPerm modified mode [ 'dist/cjs/main.js', 438, 420 ]
+1175 silly gunzTarPerm extractEntry dist/cjs/accordion/accordion-item-tmpl.js
+1176 silly gunzTarPerm modified mode [ 'dist/cjs/accordion/accordion-item-tmpl.js', 438, 420 ]
+1177 silly gunzTarPerm extractEntry dist/cjs/accordion/accordion-item.js
+1178 silly gunzTarPerm modified mode [ 'dist/cjs/accordion/accordion-item.js', 438, 420 ]
+1179 silly gunzTarPerm extractEntry dist/cjs/accordion/accordion.js
+1180 silly gunzTarPerm modified mode [ 'dist/cjs/accordion/accordion.js', 438, 420 ]
+1181 silly gunzTarPerm extractEntry dist/cjs/button/button-tmpl.js
+1182 silly gunzTarPerm modified mode [ 'dist/cjs/button/button-tmpl.js', 438, 420 ]
+1183 silly gunzTarPerm extractEntry dist/cjs/button/button.js
+1184 silly gunzTarPerm modified mode [ 'dist/cjs/button/button.js', 438, 420 ]
+1185 silly gunzTarPerm extractEntry dist/cjs/list/as-item.js
+1186 silly gunzTarPerm modified mode [ 'dist/cjs/list/as-item.js', 438, 420 ]
+1187 silly gunzTarPerm extractEntry dist/cjs/list/list-item.js
+1188 silly gunzTarPerm modified mode [ 'dist/cjs/list/list-item.js', 438, 420 ]
+1189 silly gunzTarPerm extractEntry dist/cjs/list/list.js
+1190 silly gunzTarPerm modified mode [ 'dist/cjs/list/list.js', 438, 420 ]
+1191 silly gunzTarPerm extractEntry dist/cjs/modal/modal-body.js
+1192 silly gunzTarPerm modified mode [ 'dist/cjs/modal/modal-body.js', 438, 420 ]
+1193 silly gunzTarPerm extractEntry dist/cjs/modal/modal-confirm.js
+1194 silly gunzTarPerm modified mode [ 'dist/cjs/modal/modal-confirm.js', 438, 420 ]
+1195 silly gunzTarPerm extractEntry dist/cjs/modal/modal-css.js
+1196 silly gunzTarPerm modified mode [ 'dist/cjs/modal/modal-css.js', 438, 420 ]
+1197 silly gunzTarPerm extractEntry dist/cjs/modal/modal-emform.js
+1198 silly gunzTarPerm modified mode [ 'dist/cjs/modal/modal-emform.js', 438, 420 ]
+1199 silly gunzTarPerm extractEntry dist/cjs/modal/modal-confirm-tmpl.js
+1200 silly gunzTarPerm modified mode [ 'dist/cjs/modal/modal-confirm-tmpl.js', 438, 420 ]
+1201 silly gunzTarPerm extractEntry dist/cjs/modal/modal-form.js
+1202 silly gunzTarPerm modified mode [ 'dist/cjs/modal/modal-form.js', 438, 420 ]
+1203 silly gunzTarPerm extractEntry dist/cjs/modal/modal-title.js
+1204 silly gunzTarPerm modified mode [ 'dist/cjs/modal/modal-title.js', 438, 420 ]
+1205 silly gunzTarPerm extractEntry dist/cjs/modal/modal-tmpl.js
+1206 silly gunzTarPerm modified mode [ 'dist/cjs/modal/modal-tmpl.js', 438, 420 ]
+1207 silly gunzTarPerm extractEntry dist/cjs/modal/modal-toggler.js
+1208 silly gunzTarPerm modified mode [ 'dist/cjs/modal/modal-toggler.js', 438, 420 ]
+1209 silly gunzTarPerm extractEntry dist/cjs/modal/modal.js
+1210 silly gunzTarPerm modified mode [ 'dist/cjs/modal/modal.js', 438, 420 ]
+1211 silly gunzTarPerm extractEntry dist/cjs/modal/modal-footer.js
+1212 silly gunzTarPerm modified mode [ 'dist/cjs/modal/modal-footer.js', 438, 420 ]
+1213 silly gunzTarPerm extractEntry dist/cjs/tabs/tab-list.js
+1214 silly gunzTarPerm modified mode [ 'dist/cjs/tabs/tab-list.js', 438, 420 ]
+1215 silly gunzTarPerm extractEntry dist/cjs/tabs/tab-panel.js
+1216 silly gunzTarPerm modified mode [ 'dist/cjs/tabs/tab-panel.js', 438, 420 ]
+1217 silly gunzTarPerm extractEntry dist/cjs/tabs/tab.js
+1218 silly gunzTarPerm modified mode [ 'dist/cjs/tabs/tab.js', 438, 420 ]
+1219 silly gunzTarPerm extractEntry dist/cjs/tabs/tabs-css.js
+1220 silly gunzTarPerm modified mode [ 'dist/cjs/tabs/tabs-css.js', 438, 420 ]
+1221 silly gunzTarPerm extractEntry dist/cjs/tabs/tabs.js
+1222 silly gunzTarPerm modified mode [ 'dist/cjs/tabs/tabs.js', 438, 420 ]
+1223 silly gunzTarPerm extractEntry dist/cjs/tree/node.js
+1224 silly gunzTarPerm modified mode [ 'dist/cjs/tree/node.js', 438, 420 ]
+1225 silly gunzTarPerm extractEntry dist/cjs/tree/tree-branch-tmpl.js
+1226 silly gunzTarPerm modified mode [ 'dist/cjs/tree/tree-branch-tmpl.js', 438, 420 ]
+1227 silly gunzTarPerm extractEntry dist/cjs/tree/tree-branch.js
+1228 silly gunzTarPerm modified mode [ 'dist/cjs/tree/tree-branch.js', 438, 420 ]
+1229 silly gunzTarPerm extractEntry dist/cjs/tree/tree-css.js
+1230 silly gunzTarPerm modified mode [ 'dist/cjs/tree/tree-css.js', 438, 420 ]
+1231 silly gunzTarPerm extractEntry dist/cjs/tree/tree-node-icon-action.js
+1232 silly gunzTarPerm modified mode [ 'dist/cjs/tree/tree-node-icon-action.js', 438, 420 ]
+1233 silly gunzTarPerm extractEntry dist/cjs/tree/tree-node-tmpl.js
+1234 silly gunzTarPerm modified mode [ 'dist/cjs/tree/tree-node-tmpl.js', 438, 420 ]
+1235 silly gunzTarPerm extractEntry dist/cjs/tree/tree-node.js
+1236 silly gunzTarPerm modified mode [ 'dist/cjs/tree/tree-node.js', 438, 420 ]
+1237 silly gunzTarPerm extractEntry dist/cjs/tree/tree-tmpl.js
+1238 silly gunzTarPerm modified mode [ 'dist/cjs/tree/tree-tmpl.js', 438, 420 ]
+1239 silly gunzTarPerm extractEntry dist/cjs/tree/tree.js
+1240 silly gunzTarPerm modified mode [ 'dist/cjs/tree/tree.js', 438, 420 ]
+1241 silly gunzTarPerm extractEntry dist/cjs/wysiwyg/action-group.js
+1242 silly gunzTarPerm modified mode [ 'dist/cjs/wysiwyg/action-group.js', 438, 420 ]
+1243 silly gunzTarPerm extractEntry dist/cjs/wysiwyg/action.js
+1244 silly gunzTarPerm modified mode [ 'dist/cjs/wysiwyg/action.js', 438, 420 ]
+1245 silly gunzTarPerm extractEntry dist/cjs/wysiwyg/actiontmpl.js
+1246 silly gunzTarPerm modified mode [ 'dist/cjs/wysiwyg/actiontmpl.js', 438, 420 ]
+1247 silly gunzTarPerm extractEntry dist/cjs/wysiwyg/editor.js
+1248 silly gunzTarPerm modified mode [ 'dist/cjs/wysiwyg/editor.js', 438, 420 ]
+1249 silly gunzTarPerm extractEntry dist/cjs/wysiwyg/toolbar.js
+1250 silly gunzTarPerm modified mode [ 'dist/cjs/wysiwyg/toolbar.js', 438, 420 ]
+1251 silly gunzTarPerm extractEntry dist/cjs/wysiwyg/wysiwyg.js
+1252 silly gunzTarPerm modified mode [ 'dist/cjs/wysiwyg/wysiwyg.js', 438, 420 ]
+1253 silly gunzTarPerm extractEntry dist/globals/main.js
+1254 silly gunzTarPerm modified mode [ 'dist/globals/main.js', 438, 420 ]
+1255 silly gunzTarPerm extractEntry dist/named-amd/main.js
+1256 silly gunzTarPerm modified mode [ 'dist/named-amd/main.js', 438, 420 ]
+1257 silly gunzTarPerm extractEntry lib/accordion/accordion-item-tmpl.hbs
+1258 silly gunzTarPerm modified mode [ 'lib/accordion/accordion-item-tmpl.hbs', 438, 420 ]
+1259 silly gunzTarPerm extractEntry lib/accordion/accordion-item.coffee
+1260 silly gunzTarPerm modified mode [ 'lib/accordion/accordion-item.coffee', 438, 420 ]
+1261 silly gunzTarPerm extractEntry lib/accordion/accordion.coffee
+1262 silly gunzTarPerm modified mode [ 'lib/accordion/accordion.coffee', 438, 420 ]
+1263 silly gunzTarPerm extractEntry lib/button/button-tmpl.hbs
+1264 silly gunzTarPerm modified mode [ 'lib/button/button-tmpl.hbs', 438, 420 ]
+1265 silly gunzTarPerm extractEntry lib/button/button.coffee
+1266 silly gunzTarPerm modified mode [ 'lib/button/button.coffee', 438, 420 ]
+1267 silly gunzTarPerm extractEntry lib/list/as-item.coffee
+1268 silly gunzTarPerm modified mode [ 'lib/list/as-item.coffee', 438, 420 ]
+1269 silly gunzTarPerm extractEntry lib/list/list-item.coffee
+1270 silly gunzTarPerm modified mode [ 'lib/list/list-item.coffee', 438, 420 ]
+1271 silly gunzTarPerm extractEntry lib/list/list.coffee
+1272 silly gunzTarPerm modified mode [ 'lib/list/list.coffee', 438, 420 ]
+1273 silly gunzTarPerm extractEntry lib/main.coffee
+1274 silly gunzTarPerm modified mode [ 'lib/main.coffee', 438, 420 ]
+1275 silly gunzTarPerm extractEntry lib/modal/modal-footer.coffee
+1276 silly gunzTarPerm modified mode [ 'lib/modal/modal-footer.coffee', 438, 420 ]
+1277 silly gunzTarPerm extractEntry lib/modal/modal-body.coffee
+1278 silly gunzTarPerm modified mode [ 'lib/modal/modal-body.coffee', 438, 420 ]
+1279 silly gunzTarPerm extractEntry lib/modal/modal-confirm.coffee
+1280 silly gunzTarPerm modified mode [ 'lib/modal/modal-confirm.coffee', 438, 420 ]
+1281 silly gunzTarPerm extractEntry lib/modal/modal-css.hbs
+1282 silly gunzTarPerm modified mode [ 'lib/modal/modal-css.hbs', 438, 420 ]
+1283 silly gunzTarPerm extractEntry lib/modal/modal-emform.coffee
+1284 silly gunzTarPerm modified mode [ 'lib/modal/modal-emform.coffee', 438, 420 ]
+1285 silly gunzTarPerm extractEntry lib/modal/modal-confirm-tmpl.hbs
+1286 silly gunzTarPerm modified mode [ 'lib/modal/modal-confirm-tmpl.hbs', 438, 420 ]
+1287 silly gunzTarPerm extractEntry lib/modal/modal-form.coffee
+1288 silly gunzTarPerm modified mode [ 'lib/modal/modal-form.coffee', 438, 420 ]
+1289 silly gunzTarPerm extractEntry lib/modal/modal-title.coffee
+1290 silly gunzTarPerm modified mode [ 'lib/modal/modal-title.coffee', 438, 420 ]
+1291 silly gunzTarPerm extractEntry lib/modal/modal-tmpl.hbs
+1292 silly gunzTarPerm modified mode [ 'lib/modal/modal-tmpl.hbs', 438, 420 ]
+1293 silly gunzTarPerm extractEntry lib/modal/modal-toggler.coffee
+1294 silly gunzTarPerm modified mode [ 'lib/modal/modal-toggler.coffee', 438, 420 ]
+1295 silly gunzTarPerm extractEntry lib/modal/modal.coffee
+1296 silly gunzTarPerm modified mode [ 'lib/modal/modal.coffee', 438, 420 ]
+1297 silly gunzTarPerm extractEntry lib/tabs/tab-list.coffee
+1298 silly gunzTarPerm modified mode [ 'lib/tabs/tab-list.coffee', 438, 420 ]
+1299 silly gunzTarPerm extractEntry lib/tabs/tab-panel.coffee
+1300 silly gunzTarPerm modified mode [ 'lib/tabs/tab-panel.coffee', 438, 420 ]
+1301 silly gunzTarPerm extractEntry lib/tabs/tab.coffee
+1302 silly gunzTarPerm modified mode [ 'lib/tabs/tab.coffee', 438, 420 ]
+1303 silly gunzTarPerm extractEntry lib/tabs/tabs-css.hbs
+1304 silly gunzTarPerm modified mode [ 'lib/tabs/tabs-css.hbs', 438, 420 ]
+1305 silly gunzTarPerm extractEntry lib/tabs/tabs.coffee
+1306 silly gunzTarPerm modified mode [ 'lib/tabs/tabs.coffee', 438, 420 ]
+1307 silly gunzTarPerm extractEntry lib/tree/node.coffee
+1308 silly gunzTarPerm modified mode [ 'lib/tree/node.coffee', 438, 420 ]
+1309 silly gunzTarPerm extractEntry lib/tree/tree-branch-tmpl.hbs
+1310 silly gunzTarPerm modified mode [ 'lib/tree/tree-branch-tmpl.hbs', 438, 420 ]
+1311 silly gunzTarPerm extractEntry lib/tree/tree-branch.coffee
+1312 silly gunzTarPerm modified mode [ 'lib/tree/tree-branch.coffee', 438, 420 ]
+1313 silly gunzTarPerm extractEntry lib/tree/tree-css.hbs
+1314 silly gunzTarPerm modified mode [ 'lib/tree/tree-css.hbs', 438, 420 ]
+1315 silly gunzTarPerm extractEntry lib/tree/tree-node-icon-action.coffee
+1316 silly gunzTarPerm modified mode [ 'lib/tree/tree-node-icon-action.coffee', 438, 420 ]
+1317 silly gunzTarPerm extractEntry lib/tree/tree-node-tmpl.hbs
+1318 silly gunzTarPerm modified mode [ 'lib/tree/tree-node-tmpl.hbs', 438, 420 ]
+1319 silly gunzTarPerm extractEntry lib/tree/tree-node.coffee
+1320 silly gunzTarPerm modified mode [ 'lib/tree/tree-node.coffee', 438, 420 ]
+1321 silly gunzTarPerm extractEntry lib/tree/tree-tmpl.hbs
+1322 silly gunzTarPerm modified mode [ 'lib/tree/tree-tmpl.hbs', 438, 420 ]
+1323 silly gunzTarPerm extractEntry lib/tree/tree.coffee
+1324 silly gunzTarPerm modified mode [ 'lib/tree/tree.coffee', 438, 420 ]
+1325 silly gunzTarPerm extractEntry lib/wysiwyg/action-format-tmpl.hbs
+1326 silly gunzTarPerm modified mode [ 'lib/wysiwyg/action-format-tmpl.hbs', 438, 420 ]
+1327 silly gunzTarPerm extractEntry lib/wysiwyg/action-format.coffee
+1328 silly gunzTarPerm modified mode [ 'lib/wysiwyg/action-format.coffee', 438, 420 ]
+1329 silly gunzTarPerm extractEntry lib/wysiwyg/action-group.coffee
+1330 silly gunzTarPerm modified mode [ 'lib/wysiwyg/action-group.coffee', 438, 420 ]
+1331 silly gunzTarPerm extractEntry lib/wysiwyg/action-link-tmpl.hbs
+1332 silly gunzTarPerm modified mode [ 'lib/wysiwyg/action-link-tmpl.hbs', 438, 420 ]
+1333 silly gunzTarPerm extractEntry lib/wysiwyg/action-link.coffee
+1334 silly gunzTarPerm modified mode [ 'lib/wysiwyg/action-link.coffee', 438, 420 ]
+1335 silly gunzTarPerm extractEntry lib/wysiwyg/action.coffee
+1336 silly gunzTarPerm modified mode [ 'lib/wysiwyg/action.coffee', 438, 420 ]
+1337 silly gunzTarPerm extractEntry lib/wysiwyg/actiontmpl.hbs
+1338 silly gunzTarPerm modified mode [ 'lib/wysiwyg/actiontmpl.hbs', 438, 420 ]
+1339 silly gunzTarPerm extractEntry lib/wysiwyg/editor.coffee
+1340 silly gunzTarPerm modified mode [ 'lib/wysiwyg/editor.coffee', 438, 420 ]
+1341 silly gunzTarPerm extractEntry lib/wysiwyg/toolbar.coffee
+1342 silly gunzTarPerm modified mode [ 'lib/wysiwyg/toolbar.coffee', 438, 420 ]
+1343 silly gunzTarPerm extractEntry lib/wysiwyg/wysiwyg.coffee
+1344 silly gunzTarPerm modified mode [ 'lib/wysiwyg/wysiwyg.coffee', 438, 420 ]
+1345 silly gunzTarPerm extractEntry bower.json
+1346 silly gunzTarPerm modified mode [ 'bower.json', 438, 420 ]
+1347 silly gunzTarPerm extractEntry scripts/build
+1348 silly gunzTarPerm modified mode [ 'scripts/build', 438, 420 ]
+1349 silly gunzTarPerm extractEntry scripts/test
+1350 silly gunzTarPerm modified mode [ 'scripts/test', 438, 420 ]
+1351 silly gunzTarPerm extractEntry test/main.spec.coffee
+1352 silly gunzTarPerm modified mode [ 'test/main.spec.coffee', 438, 420 ]
+1353 silly gunzTarPerm extractEntry test/support/setup.js
+1354 silly gunzTarPerm modified mode [ 'test/support/setup.js', 438, 420 ]
+1355 silly gunzTarPerm extractEntry test/tabs.spec.coffee
+1356 silly gunzTarPerm modified mode [ 'test/tabs.spec.coffee', 438, 420 ]
+1357 silly gunzTarPerm extractEntry testem.json
+1358 silly gunzTarPerm modified mode [ 'testem.json', 438, 420 ]
+1359 silly gunzTarPerm extractEntry to_certi.sh
+1360 silly gunzTarPerm modified mode [ 'to_certi.sh', 438, 420 ]
+1361 silly gunzTarPerm extractEntry yuidoc.json
+1362 silly gunzTarPerm modified mode [ 'yuidoc.json', 438, 420 ]
+1363 silly lockFile 3b0c91a3-ts-node-modules-ember-components tar://D:\Swatter\swatter\node_modules\ember-cli-components\node_modules\ember-components
+1364 silly lockFile 3b0c91a3-ts-node-modules-ember-components tar://D:\Swatter\swatter\node_modules\ember-cli-components\node_modules\ember-components
+1365 silly lockFile 72d9fe4c-ber-components-0-2-0-package-tgz tar://C:\Users\bshuey\AppData\Roaming\npm-cache\ember-components\0.2.0\package.tgz
+1366 silly lockFile 72d9fe4c-ber-components-0-2-0-package-tgz tar://C:\Users\bshuey\AppData\Roaming\npm-cache\ember-components\0.2.0\package.tgz
+1367 info preinstall ember-components@0.2.0
+1368 verbose readDependencies using package.json deps
+1369 verbose readDependencies using package.json deps
+1370 silly resolved []
+1371 verbose about to build D:\Swatter\swatter\node_modules\ember-cli-components\node_modules\ember-components
+1372 info build D:\Swatter\swatter\node_modules\ember-cli-components\node_modules\ember-components
+1373 verbose linkStuff [ false,
+1373 verbose linkStuff   false,
+1373 verbose linkStuff   false,
+1373 verbose linkStuff   'D:\\Swatter\\swatter\\node_modules\\ember-cli-components\\node_modules' ]
+1374 info linkStuff ember-components@0.2.0
+1375 verbose linkBins ember-components@0.2.0
+1376 verbose linkMans ember-components@0.2.0
+1377 verbose rebuildBundles ember-components@0.2.0
+1378 info install ember-components@0.2.0
+1379 info postinstall ember-components@0.2.0
+1380 verbose unsafe-perm in lifecycle true
+1381 info ember-components@0.2.0 Failed to exec postinstall script
+1382 info D:\Swatter\swatter\node_modules\ember-cli-components\node_modules\ember-components unbuild
+1383 info preuninstall ember-components@0.2.0
+1384 info uninstall ember-components@0.2.0
+1385 verbose false,D:\Swatter\swatter\node_modules,D:\Swatter\swatter\node_modules\ember-cli-components\node_modules unbuild ember-components@0.2.0
+1386 info postuninstall ember-components@0.2.0
+1387 verbose about to build D:\Swatter\swatter\node_modules\ember-cli-components
+1388 info D:\Swatter\swatter\node_modules\ember-cli-components unbuild
+1389 info preuninstall ember-cli-components@0.2.0
+1390 info uninstall ember-cli-components@0.2.0
+1391 verbose true,D:\Swatter\swatter\node_modules,D:\Swatter\swatter\node_modules unbuild ember-cli-components@0.2.0
+1392 info postuninstall ember-cli-components@0.2.0
+1393 error ember-components@0.2.0 postinstall: `bower install`
+1393 error Exit status 1
+1394 error Failed at the ember-components@0.2.0 postinstall script.
+1394 error This is most likely a problem with the ember-components package,
+1394 error not with npm itself.
+1394 error Tell the author that this fails on your system:
+1394 error     bower install
+1394 error You can get their info via:
+1394 error     npm owner ls ember-components
+1394 error There is likely additional logging output above.
+1395 error System Windows_NT 6.1.7601
+1396 error command "C:\\Program Files (x86)\\nodejs\\\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "--save-dev" "ember-cli-components"
+1397 error cwd D:\Swatter\swatter
+1398 error node -v v0.10.26
+1399 error npm -v 1.4.3
+1400 error code ELIFECYCLE
+1401 verbose exit [ 1, true ]
