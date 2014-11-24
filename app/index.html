@@ -21,13 +21,7 @@
               <br>
           </div>
           <div class='navigation'>
-            <ul type='nav-bar' class='top-nav' align="center">
-                <li>{{#link-to 'index'}}Home{{/link-to}}</li>
-                <li>{{#link-to 'projects'}}Projects{{/link-to}}</li>
-                <li>{{#link-to 'tickets'}}Tickets{{/link-to}}</li>
-                <li>{{#link-to 'posts'}}Posts{{/link-to}}</li>
-                <li>{{#link-to 'admin'}}Admin{{/link-to}}</li>
-            </ul>
+              {{bs-tabs contentBinding="tabsMeta"}}
           </div>
         </div>
         <br>
@@ -38,7 +32,7 @@
            {{outlet quickactions}}
        </div>
         
-        
+       {{bs-growl-notifications showTime=1000}}
     </script>
 
   
@@ -73,7 +67,7 @@
 
     </script>
 
-    <script type='text/x-handlebars' id='project_overview'>
+    <script type='text/x-handlebars' id='projectdash'>
         <h2 class='posts'>Project index stub</h2>        
         <p>Going to put a project overview here</p>
         <br>
@@ -93,6 +87,13 @@
 
     <script type='text/x-handlebars' id='testuser'>
         <p>Test user stub</p>
+    </script>
+
+    <script type='text/x-handlebars' id='ticketdash'>
+        <h2 class='posts'>Ticket index stub</h2>        
+        <p>Going to put a ticket overview here</p>
+        <br>
+        
     </script>
 
     <script type="text/x-handlebars" id='tickets'>
@@ -116,12 +117,6 @@
 
     </script>
 
-    <script type='text/x-handlebars' id='ticket_overview'>
-        <h2 class='posts'>Ticket index stub</h2>        
-        <p>Going to put a ticket overview here</p>
-        <br>
-        {{bs-alert message="Close button will fade" type="warning" dismiss=true fade=true}}
-    </script>
 
     <script type='text/x-handlebars' id='ticket'>
     <!--    {{#if isEdit}}
@@ -133,7 +128,15 @@
         <p>{{severity.name}}</p>
         <p>{{status.name}}</p>
 <!--        <button {{action 'edit'}}>Edit</button>-->
-        
+        <br>
+        {{bs-alert message="Close button will fade" type="warning" dismiss=true fade=true}}
+        <br>
+        <br>
+    </script>
+
+    <script type='text/x-handlebars' id='admindash'>
+        <h2 class='posts'>Admin index stub</h2>        
+        <p>Going to put an admin overview here</p>
         <br>
     </script>
     
@@ -158,12 +161,6 @@
         </div>
     </script>
 
-    <script type='text/x-handlebars' id='admin_overview'>
-        <h2 class='posts'>Admin index stub</h2>        
-        <p>Going to put an admin overview here</p>
-        <br>
-    </script>
-
     <script type='text/x-handlebars' id='user'>
         <h2 class='posts' id='test123'>{{name}}</h2>        
         <p>Admin: {{input type="checkbox" name="isAdmin" checked=isAdmin disabled=true}}</p>
@@ -171,6 +168,13 @@
         <p>Password: {{password}}</p>
         <p>Email: {{email}}</p>
         
+    </script>
+
+    
+    <script type='text/x-handlebars' id='postdash'>
+        <p>An overview of all posts</p>
+        
+        <br>
     </script>
 
    <script type='text/x-handlebars' id='posts'>
@@ -197,33 +201,33 @@
     </script>
 
     <script type='text/x-handlebars' id='post'>
-        {{#if isEdit}}
-            {{partial 'post/edit'}}
-            <button {{action 'save'}}>Save</button>
-        {{/if}}
             <h2 class='posts' id='test123'>{{title}}</h2>        
             <p>{{author.name}}</p>
             <p>{{tagline}}</p>
-            <button {{action 'edit'}}>Edit</button>
-        
+            <button {{action 'show'}}>Edit</button>
+         
         <br>
+        
+        {{#bs-modal name="myModal" fade=true title="My Modal"}}
+            {{partial 'post/edit'}}
+        {{/bs-modal}}
+        
+        
+
     </script>
 
-    <script type='text/x-handlebars' id='posts_overview'>
-        <p>An overview of all posts</p>
-        
-        <br>
-    </script>
-
-    <script type='text/x-handlebars' id='post/edit'>
-        <table class='postEdit'>
-            <tr><td>Name</td><td>{{input type='text' value=title}}</td></tr>
-            <tr><td>Author</td><td>{{input type='text' value=author.name}}</td></tr>
-        </table>
-        <p>Tagline</p>
-        {{textarea value=tagline}}
-        
+    <script type='text/x-handlebars' id='post/edit'>        
+        {{#em-form form_layout="horizontal" model=this action="updatePost"}}
+            {{em-input label="Author" property="author.name"}}
+            {{em-input label="Tagline" property="tagline"}}
+        {{/em-form}}
     </script>   
+
+
+
+
+
+
 
 
 
@@ -247,6 +251,12 @@
   <script src="js/libs/bootstrap/bs-core.min.js"></script>
   <script src="js/libs/bootstrap/bs-alert.min.js"></script>
   <script src="js/libs/bootstrap/bs-breadcrumbs.min.js"></script>
+  <script src="js/libs/bootstrap/bs-nav.min.js"></script>
+  <script src="js/libs/bootstrap/bs-modal.min.js"></script>
+  <script src="js/libs/bootstrap/bs-button.min.js"></script>
+  <script src="js/libs/bootstrap/bs-notifications.min.js"></script>
+  <script src="js/libs/bootstrap/bs-growl-notifications.min.js"></script>
+  <script src="js/libs/forms/main.js"></script>
   <script src="js/app.js"></script>
   <script src="js/models/md-post.js"></script>
   <script src="js/models/md-project.js"></script>

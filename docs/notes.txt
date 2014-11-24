@@ -1,7 +1,5 @@
 Swatter project
 
-Filler.
-
 *** (((Elements))) ***
     Tickets
     Agents / Users
