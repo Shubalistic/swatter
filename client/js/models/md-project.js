@@ -14,18 +14,17 @@ Swatter.Project = DS.Model.extend({
     creator: DS.belongsTo('user', {async: true, inverse: 'createdProjects'}),
     owner: DS.belongsTo('user', {async: true, inverse: 'ownedProjects'}),
     status: DS.belongsTo('ProjectStatus', {async: true}),
-//    notes: DS.hasMany('projectnote', {async: true}),
+    notes: DS.hasMany('ProjectNote', {async: true}),
 });
 
-/*
 Swatter.ProjectNote = DS.Model.extend({
     content: DS.attr('string'),
     createdDate: DS.attr('date'),
     lastEdited: DS.attr('date'),
     isAlive: DS.attr('boolean'),
-    project: DS.belongsTo('project')    
-//    creator: DS.belongsTo('user', {async: true}),
-});*/
+    project: DS.belongsTo('project', {async: true}),    
+    author: DS.belongsTo('user', {async: true, inverse: 'notes'}),
+});
 
 Swatter.ProjectStatus.FIXTURES = [
     {
@@ -37,19 +36,19 @@ Swatter.ProjectStatus.FIXTURES = [
     }, {
         id: 2,
         name: 'Active',
-        value: 1,
+        value: 2,
         isActive: true,
         isClosed: false
     }, {
         id: 3,
         name: 'On Hold',
-        value: 1,
+        value: 3,
         isActive: false,
         isClosed: false
     }, {
         id: 4,
         name: 'Completed',
-        value: 1,
+        value: 4,
         isActive: false,
         isClosed: true
     }, {
@@ -112,96 +111,3 @@ Swatter.Project.FIXTURES = [
         status: 1
     }
 ]
-
-/*
-Swatter.Severity = DS.Model.extend({
-    name: DS.attr('string'),
-    value: DS.attr('number'),
-    ticket: DS.hasMany('ticket', {async: true})
-});
-
-Swatter.Status = DS.Model.extend({
-    name: DS.attr('string'),
-    value: DS.attr('number'),
-    ticket: DS.hasMany('ticket', {async: true})
-});
-
-Swatter.Ticket = DS.Model.extend({
-//    project: DS.belongsTo('project');
-//    creator: DS.belongsTo('user');
-//    assignee: DS.belongsTo('user');
-    title: DS.attr('string'),
-    description: DS.attr('string'),
-    severity: DS.belongsTo('severity', {async: true}),
-    status: DS.belongsTo('status', {async: true})
-});
-
-Swatter.Severity.FIXTURES = [
-    {
-        id: 1,
-        name: 'Critical',
-        value: 5
-    }, {
-        id: 2,
-        name: 'Major',
-        value: 4
-    }, {
-        id: 3,
-        name: 'Standard',
-        value: 3
-    }, {
-        id: 4,
-        name: 'Minor',
-        value: 2
-    }, {
-        id: 5,
-        name: 'Trivial',
-        value: 1
-    }
-];
-
-Swatter.Status.FIXTURES = [
-    {
-        id: 1,
-        name: 'Created',
-        value: 1
-    }, {
-        id: 2,
-        name: 'Assigned',
-        value: 2
-    }, {
-        id: 3,
-        name: 'Updated',
-        value: 3
-    }, {
-        id: 4,
-        name: 'Closed',
-        value: 4
-    }, {
-        id: 5,
-        name: 'Verified',
-        value: 5    
-    }
-];
-
-Swatter.Ticket.FIXTURES = [
-    {
-        id: 1,
-        title: 'cant login',
-        description: 'im having some issues logging into the application',
-        severity: 1,
-        status: 1,
-    }, {
-        id: 2,
-        title: 'seeing ERR01923',
-        description: 'Getting an error message, ERR01923 when i attempt to access this part of the application.',
-        severity: 2,
-        status: 2,
-    }, {
-        id: 3,
-        title: 'password reset',
-        description: 'Can you reset my password for me?',
-        severity: 3,
-        status: 3,
-    }
-];*/

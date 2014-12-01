@@ -1,6 +1,6 @@
 Swatter.Router.map(function() {
 	this.resource('admin', function() {
-        this.resource('user', {path: ':user_id'});
+        this.resource('user', {path: '/user/:user_id'});
         this.resource('admindash');
     });
 	this.resource('posts', function () {
@@ -9,7 +9,7 @@ Swatter.Router.map(function() {
     });
     this.resource('projects', function () {
         this.resource('project', {path: ':project_id'}, function() {
-            this.resource('dashboard');
+//            this.resource('dashboard');
             this.resource('tickets');
             this.resource('notes');
             this.resource('details');
@@ -35,9 +35,9 @@ Swatter.ApplicationRoute = Ember.Route.extend({
 Swatter.ApplicationController = Ember.Controller.extend({
     tabsMeta: [
         Ember.Object.create({title: 'Home', linkTo: 'application'}),
-        Ember.Object.create({title: 'Projects', linkTo: 'projectdash'}),
-        Ember.Object.create({title: 'Tickets', linkTo: 'ticketdash'}),
-        Ember.Object.create({title: 'Posts', linkTo: 'postdash'}),
+        Ember.Object.create({title: 'Projects', linkTo: 'projects'}),
+        Ember.Object.create({title: 'Tickets', linkTo: 'tickets'}),
+        Ember.Object.create({title: 'Posts', linkTo: 'posts'}),
         Ember.Object.create({title: 'Admin', linkTo: 'admin'})
     ] 
 });
@@ -46,6 +46,15 @@ Swatter.PostsRoute = Ember.Route.extend({
     model: function() {
        return this.store.find('post');
     },
+    
+    afterModel: function(posts, transition) {
+        var length = posts.get('length');
+        if (length >= 1) {
+            this.transitionTo('post', posts.get('firstObject'));
+        } else {
+            this.transitionTo('postdash');
+        }
+    }
 });
 
 Swatter.PostController = Ember.ObjectController.extend({
@@ -87,11 +96,6 @@ Swatter.TicketsRoute = Ember.Route.extend({
     model: function() {
         return this.store.find('ticket');
     },
-});
-
-Swatter.TicketdashController = Ember.Controller.extend({
-
-    
 });
 
 Swatter.TicketRoute = Ember.Route.extend({

@@ -6,6 +6,7 @@ Swatter.User = DS.Model.extend ({
     email: DS.attr('email'),
     ownedProjects: DS.hasMany('project', {async: true, inverse: 'owner'}),
     createdProjects: DS.hasMany('project', {async: true, inverse: 'creator'}),
+    notes: DS.hasMany('ProjectNote', {async: true, inverse: 'author'}),
 });
 
 Swatter.User.FIXTURES = [
