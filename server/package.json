@@ -1,0 +1,26 @@
+{
+  "name": "swatterbase",
+  "version": "0.1.0",
+  "description": "REST API for Swatter backend",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Shubalistic/swatter.git"
+  },
+  "keywords": [
+    "bug",
+    "bugs",
+    "issue",
+    "issue",
+    "tracking"
+  ],
+  "author": "Ben Shuey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shubalistic/swatter/issues"
+  },
+  "homepage": "https://github.com/Shubalistic/swatter"
+}
