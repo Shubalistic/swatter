@@ -1,0 +1,14 @@
+Swatter.Router.map(function() {
+	this.resource('posts', function () {
+        this.resource('post', {path: ':post_id'});  
+    });
+});
+
+Swatter.PostsRoute = Ember.Route.extend({
+    model: function() {
+       return this.store.findAll('post');
+    }
+});
+
+
+    

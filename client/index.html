@@ -182,7 +182,7 @@
                     {{#each}}
                         <tr><td>
                             {{#link-to 'post' this}}
-                                {{title}} by {{author.name}}
+                                {{title}} by {{author}}
                             {{/link-to}}
                         </tr></td>
                     {{/each}}
@@ -199,11 +199,18 @@
     </script>
 
     <script type='text/x-handlebars' id='post'>
-            <h2 class='posts' id='test123'>{{title}}</h2>        
-            <p>{{author.name}}</p>
-            <p>{{tagline}}</p>
-            <button {{action 'show'}}>Edit</button>
-         
+        <h2 class='posts' id='test123'>{{title}}</h2>        
+        <p>{{author}}</p>
+        <p>{{tagline}}</p>
+        <button {{action 'show'}}>Edit</button>
+        <br>
+        <p>{{id}}</p>
+        <br>
+        {{#em-form form_layout="horizontal" model=this action="updatePost"}}
+            {{em-input label="Author" property="author"}}
+            {{em-input label="Tagline" property="tagline"}}
+        {{/em-form}}
+
         <br>
         
         {{#bs-modal name="myModal" fade=true title="My Modal"}}
@@ -216,18 +223,10 @@
 
     <script type='text/x-handlebars' id='post/edit'>        
         {{#em-form form_layout="horizontal" model=this action="updatePost"}}
-            {{em-input label="Author" property="author.name"}}
+            {{em-input label="Author" property="author"}}
             {{em-input label="Tagline" property="tagline"}}
         {{/em-form}}
     </script>   
-
-
-
-
-
-
-
-
 
    <!-- ******** Components *********** -->
    <script type='text/x-handlebars' id='components/cp-post'>

@@ -9,7 +9,7 @@ Swatter.Router.map(function() {
     });
     this.resource('projects', function () {
         this.resource('project', {path: ':project_id'}, function() {
-//            this.resource('dashboard');
+            this.resource('dashboard');
             this.resource('tickets');
             this.resource('notes');
             this.resource('details');
@@ -45,15 +45,6 @@ Swatter.ApplicationController = Ember.Controller.extend({
 Swatter.PostsRoute = Ember.Route.extend({
     model: function() {
        return this.store.find('post');
-    },
-    
-    afterModel: function(posts, transition) {
-        var length = posts.get('length');
-        if (length >= 1) {
-            this.transitionTo('post', posts.get('firstObject'));
-        } else {
-            this.transitionTo('postdash');
-        }
     }
 });
 
@@ -80,6 +71,10 @@ Swatter.PostController = Ember.ObjectController.extend({
         updatePost: function() {
             Bootstrap.GNM.push('Post updated!', 'The post was updated successfully!', 'success');
             Bootstrap.NM.push('Successfully submitted modal', 'success');
+            
+            var pp = this.get('model');
+            pp.save();
+            
             return Bootstrap.ModalManager.hide('myModal');   
         }
     }

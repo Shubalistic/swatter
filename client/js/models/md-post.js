@@ -1,10 +1,12 @@
 Swatter.Post = DS.Model.extend({
+    priamryKey: '_id',
+    _id : DS.attr('string'),
     title: DS.attr('string'),
     author: DS.attr('string'),
     tagline: DS.attr('string')
 });
 
-Swatter.Post.FIXTURES = [
+/*Swatter.Post.FIXTURES = [
     {
         id: '1',
         title: 'This is a title',
@@ -21,4 +23,4 @@ Swatter.Post.FIXTURES = [
         author: { name: 'old man'},
         tagline: "I'm done with this."
     }
-]
+]*/
