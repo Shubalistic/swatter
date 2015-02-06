@@ -14,9 +14,32 @@ var PostSchema = new Schema({
     title: { type: String, required: true },
     tagline: { type: String },
     author: { type: String }
+}, {
+    collection: 'posts'
 });
 
+var TicketSeveritySchema = new Schema({
+    name: { type: String, required: true },
+    value: { type: Number },
+    active: { type: Boolean }
+},{
+    collection: 'ticketSeverity'
+});
+
+var TicketStatusSchema = new Schema({
+    name: { type: String, required: true },
+    value: { type: Number },
+    active: { type: Boolean }
+},{
+    collection: 'ticketStatus'
+});
+
+var options = {
+    plural: false
+};
 var PostModel = mongoose.model('post', PostSchema);
+var TicketSeverityModel = mongoose.model('ticketSeverity', TicketSeveritySchema);
+var TicketStatusModel = mongoose.model('ticketStatus', TicketStatusSchema);
 
 var app = express();
 
@@ -34,6 +57,8 @@ app.use(multer());
 app.use(logger('combined'));
 
 restify.serve(app, PostModel);
+restify.serve(app, TicketStatusModel, options);
+restify.serve(app, TicketStatusModel, options);
 
 app.listen(8081, function() {
     console.log('listening on port 8081');

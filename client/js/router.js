@@ -73,6 +73,8 @@ Swatter.PostController = Ember.ObjectController.extend({
             Bootstrap.NM.push('Successfully submitted modal', 'success');
             
             var pp = this.get('model');
+            
+            
             pp.save();
             
             return Bootstrap.ModalManager.hide('myModal');   

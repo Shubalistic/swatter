@@ -1,0 +1,26 @@
+{
+    "namne": "This is a title",
+    "description" : {"name" : "authorname"},
+    "severity" : "this is my first tagline"
+	"status": 
+}{
+    "title": "My second book",
+    "author" : {"name" : "another name"},
+    "tagline" : "Sed ut perspiciatis unde omnis iste ne"
+}{
+    "title": "The third title",
+    "author" : {"name" : "a special boy"},
+    "tagline" : "itatis et quasi architecto beatae vitae dicta sunt explicabo. "
+}{
+    "title": "Getting old",
+    "author" : {"name" : "test name"},
+    "tagline" : "beatae vitae dicta sunt explicabo. Nemo enim ipsam v"
+}{
+    "title": "Another freaking title",
+    "author" : {"name" : "robert jordan"},
+    "tagline" : "asi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos"
+}{
+    "title": "last title",
+    "author" : {"name" : "final author"},
+    "tagline" : "this is my last tagline"
+}

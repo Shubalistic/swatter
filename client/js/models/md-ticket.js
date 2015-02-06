@@ -1,12 +1,14 @@
-Swatter.Severity = DS.Model.extend({
+Swatter.TicketSeverity = DS.Model.extend({
     name: DS.attr('string'),
     value: DS.attr('number'),
+    active: DS.attr('boolean');
     tickets: DS.hasMany('ticket', {async: true})
 });
 
-Swatter.Status = DS.Model.extend({
+Swatter.TicketStatus = DS.Model.extend({
     name: DS.attr('string'),
     value: DS.attr('number'),
+    active: DS.attr('boolean');
     tickets: DS.hasMany('ticket', {async: true})
 });
 

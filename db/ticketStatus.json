@@ -1,0 +1,25 @@
+{
+    "name": "Created",
+    "value" : 1,
+    "active" : true
+}{
+    "name": "Assigned",
+    "value" : 2,
+    "active" : true
+}{
+    "name": "Updated",
+    "value" : 3,
+    "active" : true
+}{
+    "name": "Closed",
+    "value" : 4,
+    "active" : true
+}{
+    "name": "Verified",
+    "value" : 5,
+    "active" : true
+}{
+    "name": "Deleted",
+    "value" : 6,
+    "active" : false
+}

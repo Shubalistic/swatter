@@ -14,7 +14,7 @@ Swatter.PostSerializer = DS.RESTSerializer.extend({
     serializeId: function(id) {
         return id.toString();
     },
-    extractFindAll: function(store, type, payload) {
+    extractArray: function(store, primaryType, payload) {
         console.log('extractFindAll');
         var rawPosts = payload;
         
@@ -26,7 +26,7 @@ Swatter.PostSerializer = DS.RESTSerializer.extend({
         
         console.log(payload);
         
-        return rawPosts;        
+        return rawPosts;      
     },
     serializeIntoHash: function(hash, type, record, options) {
         console.log('serializeIntoHash');
@@ -36,6 +36,5 @@ Swatter.PostSerializer = DS.RESTSerializer.extend({
         console.log('in normalize');
         return this._super(type, hash, prop);
     },
-    
 })
 
