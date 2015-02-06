@@ -1,0 +1,25 @@
+{
+    "name": "Critical",
+    "value" : 1,
+	"active": true,
+}{
+    "name": "Major",
+    "value" : 2,
+	"active": true,
+}{
+    "name": "Standard",
+    "value" : 3,
+	"active": true,
+}{
+    "name": "Minor",
+    "value" : 4,
+	"active": true,
+}{
+    "name": "Trivial",
+    "value" : 5,
+	"active": true,
+}{
+    "name": "Removed - test",
+    "value" : 6,
+	"active": false,
+}
