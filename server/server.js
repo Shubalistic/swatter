@@ -31,7 +31,7 @@ app.use(bodyParser.json());
 app.use(methodOverride());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(multer());
-app.use(logger('dev'));
+app.use(logger('combined'));
 
 restify.serve(app, PostModel);
 
