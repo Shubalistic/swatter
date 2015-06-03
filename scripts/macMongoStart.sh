@@ -1,1 +1,1 @@
-mongod --fork --config ../config/mongo/mongodb.conf
+mongod --config ../config/mongo/mongodb.conf
